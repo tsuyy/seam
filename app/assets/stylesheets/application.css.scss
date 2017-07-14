@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+@import "semantic-ui";
+
+
+.logo {
+  width: 112px;
+  height: 28px;
+}
+
+section {
+  height: 500px;
+}
+
+#landing {
+  h1 {
+    margin-top: 21%;
+    font-size: 40px!important;
+  }
+
+  div .sub {
+    font-size: 17px;
+    margin-top: 1%;
+  }
+
+  button {
+    margin-bottom: 1%;
+  }
+
+  div#signup {
+    margin-top: 5%;
+  }
+}
+
+#intro-2 {
+  margin-bottom: 20%;
+}
