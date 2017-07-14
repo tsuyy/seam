@@ -7,15 +7,14 @@
        </div>
     </h1>
     <div class="ui center aligned container" id='signup'>
-      <button class="ui primary button">
+      <button class="ui button" id='cta-btn'>
         Create Free Account
       </button><br>
       Or Sign up with <a href='#'>Google</a> or <a href='#'>Facebook</a>
     </div>
   </section>
-  <div class="ui divider"></div>
   <section id='intro-1'>
-    <div class="ui grid">
+    <div class="ui stackable grid">
       <div class='seven wide column'>
         <h2>Meet Seam</h2>
         <p>
@@ -27,16 +26,15 @@
         </p>
       </div>
       <div class='nine wide column'>
-        <%= image_tag('https://getuikit.com/v2/docs/images/placeholder_600x400.svg')%>
+        <%= image_tag('https://getuikit.com/v2/docs/images/placeholder_600x400.svg', class: 'ui image')%>
       </div>
     </div>
   </section>
-  <div class="ui divider"></div>
   <section id='intro-2'>
     <div class='ui text container'>
-      <div class='ui grid'>
+      <div class='ui stackable grid'>
         <div class='six wide column'>
-          <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif')%>
+          <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif', class: 'ui image')%>
         </div>
         <div class='ten wide column'>
           <h2>Ultimate team collaboration</h2>
@@ -53,10 +51,10 @@
           </p>
         </div>
         <div class='six wide column'>
-          <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif')%>
+          <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif', class: 'ui image')%>
         </div>
         <div class='six wide column'>
-          <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif')%>
+          <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif', class: 'ui image')%>
         </div>
         <div class='ten wide column'>
           <h2>Harness the power of play</h2>
@@ -76,7 +74,14 @@
           </p>
         </div>
         <div class='six wide column'>
-          <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif')%>
+          <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif', class: 'ui image')%>
+        </div>
+        <div class='ui center aligned container'>
+          <%= link_to '/features' do %>
+            <button class="ui button">
+              Find Out More
+            </button>
+          <% end %>
         </div>
       </div>
     </div>
