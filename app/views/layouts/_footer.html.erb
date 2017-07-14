@@ -1,9 +1,59 @@
+<div class="ui divider"></div>
 <div class='ui container'>
-  <div class="ui grid">
-    <div class="eight wide column">
-      <%= image_tag('Final-Logo.svg') %>
+  <div class="ui two column grid">
+    <div class="column">
+      <%= image_tag('Final-Logo.svg', class: 'footer-logo') %>
+      <div class='ui text container' id='rights'>
+        Copyright © Seam Collaboration, LLC 2017<br>
+        All Rights Reserved
+      </div>
+      <div id='social-icons'>
+        <button class="ui circular facebook icon button">
+          <i class="facebook icon"></i>
+        </button>
+        <button class="ui circular twitter icon button">
+          <i class="twitter icon"></i>
+        </button>
+        <button class="ui circular linkedin icon button">
+          <i class="linkedin icon"></i>
+        </button>
+        <button class="ui circular google plus icon button">
+          <i class="google plus icon"></i>
+        </button>
+        <button class="ui circular youtube icon button">
+          <i class="youtube icon"></i>
+        </button>
+      </div>
     </div>
-    <div class="eight wide column">
+    <div class="column">
+      <div class='ui three column grid'>
+        <div class="column">
+          <h4>seam</h4>
+          <div class="ui link list">
+            <%= link_to '/features', {class: 'item'} do %>
+              Features
+            <% end %>
+            <%= link_to '/pricing', {class: 'item'} do %>
+              Pricing
+            <% end %>
+            <%= link_to '/customers', {class: 'item'} do %>
+              Customers
+            <% end %>
+            <%= link_to '/user_stories', {class: 'item'} do %>
+              User Stories
+            <% end %>
+            <%= link_to '/contact', {class: 'item'} do %>
+              Contact
+            <% end %>
+          </div>
+        </div>
+        <div class="column">
+          <h4>learn more</h4>
+        </div>
+        <div class="column">
+          <h4>support</h4>
+        </div>
+      </div>
     </div>
   </div>
 </div>
