@@ -15,3 +15,19 @@
 //= require turbolinks
 //= require semantic-ui
 //= require_tree .
+
+$(document).on('turbolinks:load', function() {
+  console.log('hi');
+
+  $('#doc').click(function() {
+    $('#toggle-img').attr('src', 'https://www.zinfi.com/wp-content/uploads/2016/11/dummy-img.png');
+  });
+
+  $('#dashboard').click(function() {
+    $('#toggle-img').attr('src', 'http://fakeimg.pl/400x200');
+  });
+
+  $('#keep-records').click(function() {
+    $('#toggle-img').attr('src', 'http://www.cyrixsystems.com/images/portfolio-images/portfolio-item-1.jpg');
+  });
+});
