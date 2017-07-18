@@ -34,4 +34,8 @@ $(document).on('turbolinks:load', function() {
     $('#toggle-img').attr('src', 'http://www.cyrixsystems.com/images/portfolio-images/portfolio-item-1.jpg');
   });
 
+  $('#sidebar-toggle').click(function() {
+    $('.ui.sidebar').sidebar('toggle');
+  });
+
 });

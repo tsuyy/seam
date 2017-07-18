@@ -4,7 +4,7 @@
       <%= image_tag('Final-Logo.svg', class: 'logo') %>
     <% end %>
   </div>
-  <div class="right menu">
+  <div class="right menu" id='computer-only'>
     <%= link_to '/features', {class: 'ui item'} do %>
       Features
     <% end %>
@@ -22,6 +22,11 @@
     <% end %>
     <div class="item">
       <div class="ui button" id='cta-btn'>Sign In</div>
+    </div>
+  </div>
+  <div class='right menu' id='mobile-only'>
+    <div class='item' id='sidebar-toggle'>
+      <i class='sidebar big icon'></i>
     </div>
   </div>
 </div>
