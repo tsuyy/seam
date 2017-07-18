@@ -17,10 +17,13 @@
 //= require_tree .
 
 $(document).on('turbolinks:load', function() {
-  console.log('hi');
+
+  $('.toggle').click(function() {
+     $(this).toggleClass('active').siblings().removeClass('active');
+  });
 
   $('#doc').click(function() {
-    $('#toggle-img').attr('src', 'https://www.zinfi.com/wp-content/uploads/2016/11/dummy-img.png');
+    $('#toggle-img').attr('src', 'http://sinfulsalt.com/wordpress/wp-content/uploads/2012/07/placeholder-470x352.jpg');
   });
 
   $('#dashboard').click(function() {
@@ -30,4 +33,5 @@ $(document).on('turbolinks:load', function() {
   $('#keep-records').click(function() {
     $('#toggle-img').attr('src', 'http://www.cyrixsystems.com/images/portfolio-images/portfolio-item-1.jpg');
   });
+
 });
