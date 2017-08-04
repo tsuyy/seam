@@ -2,47 +2,71 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 // Set variables
 $margin: 3% 0 6% 0;
-$primary-blue: #03b1ff;
-$primary-green: #84e73c;
+$primary-green: #009688;
 $primary-yellow: #ffe370;
 $primary-red: #f04f4a;
 
-section {
-  min-height: 400px;
+html {
+  font-family: 'Roboto', sans-serif!important;
 }
 
-#landing, #intro-1, #intro-2,
+section {
+  min-height: 400px;
+
+}
+
+
+#landing, #intro-2,
 #f-2, #f-3, #f-4, #f-5, #f-6,
 #p-1, #p-2 {
   height: 110%;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 #landing, #a-1 {
   h1 {
-    margin: 21% 0 9% 0;
-    font-size: 40px!important;
+    margin: 21% 0 3% 0;
+    font-size: 56px!important;
+    width: 52%;
+
+    .sub {
+      font-size: 16px!important;
+      line-height: 28px;
+    }
   }
 
   button {
-    margin-bottom: 1%;
+    height: 40px;
+    font-size: 15px;
   }
+}
 
-  div#signup {
-    margin-top: 5%;
+#no-credit {
+  margin-top: 30px;
+}
+
+#intro-1 {
+  background-color: #F7F9FF;
+  height: 400px;
+
+  #wrapper {
+    padding: 50px;
   }
 }
 
 #intro-2 {
   button {
-    margin-top: 7%;
     background-color: $primary-green;
     color: #FFF;
     border: solid 2px $primary-green;
-    border-radius: 50px;
+    border-radius: 3px;
     width: 160px;
+    font-size: 15px;
+    height: 40px;
 
     &:hover {
       background-color: #FFF;
@@ -50,6 +74,36 @@ section {
       border: solid 2px $primary-green;
     }
   }
+
+  img {
+    height: 60%;
+  }
+
+  h2 {
+    font-size: 30px;
+    color: #333333;
+  }
+
+  #padded {
+    padding-top: 9%;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #333333;
+    padding-top: 2%;
+    width: 80%;
+  }
+
+  .content {
+    padding: 8% 7% 8% 7%;
+  }
+
+  .item {
+    margin: 12% 0 8% 0;
+  }
+
 }
 
 #intro-1, #f-1, #f-3, #p-1, #contact {
@@ -75,7 +129,7 @@ section {
     &:hover {
       background-color: aliceblue;
       h3 {
-        color: $primary-blue;
+        color: $primary-green;
       }
     }
   }
@@ -83,7 +137,7 @@ section {
   .active {
     background-color: aliceblue;
     h3 {
-      color: $primary-blue;
+      color: $primary-green;
     }
   }
 }
@@ -93,7 +147,9 @@ section {
     background-color: $primary-yellow;
     color: #FFF;
     border: solid 2px $primary-yellow;
-    border-radius: 50px;
+    border-radius: 3px;
+    font-size: 15px;
+    height: 40px;
 
     &:hover {
       background-color: #FFF;
@@ -109,8 +165,10 @@ section {
     background-color: $primary-green;
     color: #FFF;
     border: solid 2px $primary-green;
-    border-radius: 50px;
+    border-radius: 3px;
     width: 120px!important;
+    font-size: 15px;
+    height: 40px;
 
     i {
       font-size: 23px!important;
@@ -130,7 +188,9 @@ section {
   }
 
   #siwg-btn {
-    border-radius: 50px;
+    border-radius: 3px;
+    font-size: 15px;
+    height: 40px;
 
     i {
       font-size: 19px!important;
@@ -151,14 +211,17 @@ div.divider {
 }
 
 #cta-btn {
-  background-color: $primary-blue;
+  background-color: $primary-green;
   color: #FFF;
-  border: solid 2px $primary-blue;
-  border-radius: 50px;
+  border: solid 1px $primary-green;
+  border-radius: 3px;
+  font-size: 15px;
+  height: 40px;
 
   &:hover {
-    background-color: #FFF;
-    color: $primary-blue;
-    border: solid 2px $primary-blue;
+    background-color: #036D60;
+    -webkit-box-shadow:inset 0px 0px 0px 1px #036D60;
+    -moz-box-shadow:inset 0px 0px 0px 1px #036D60;
+    box-shadow:inset 0px 0px 0px 1px #036D60;
   }
 }
