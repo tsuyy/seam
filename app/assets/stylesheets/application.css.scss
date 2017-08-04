@@ -18,10 +18,7 @@
 @import "mq.scss";
 
 // Set variables
-$primary-blue: #03b1ff;
-$primary-green: #84e73c;
-$primary-yellow: #ffe370;
-$primary-red: #f04f4a;
+$primary-green: #009688;
 
 // NAV
 .logo {
@@ -34,25 +31,43 @@ $primary-red: #f04f4a;
     border-bottom: 2px solid #FFF;
   }
   a.ui.item:hover {
-    border-bottom: 2px solid $primary-blue;
+    border-bottom: 2px solid $primary-green;
     background-color: #FFF!important;
     border-radius: 0px;
   }
 }
 
+.fixed {
+  background-color: #FFF!important;
+  transition: all 0.5s linear;
+  height: 60px;
+}
+
+#cast.active {
+  box-shadow: 0 5px 30px 0 rgba(0,0,0,0.1);
+}
+
+#nav-cta {
+  background-color: $primary-green;
+  color: #FFF;
+  border: solid 1px $primary-green;
+  border-radius: 3px;
+  font-size: 14px;
+  height: 30px;
+  line-height: 1px;
+
+  &:hover {
+    background-color: #036D60;
+    border: solid 1px #036D60;
+  }
+}
+
 // FOOTER
-.footer-logo {
-  width: 135px;
+.input {
+  margin-right: 2%;
 }
 
-#red {
-  color: $primary-red!important;
-}
-
-#blue {
-  color: $primary-blue!important;
-}
-
-#green {
-  color: $primary-green!important;
+.footer {
+  background-color: #F7F9FF;
+  padding-top: 60px;
 }
