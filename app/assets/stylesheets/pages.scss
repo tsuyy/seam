@@ -36,6 +36,8 @@ section {
     .sub {
       font-size: 16px!important;
       line-height: 28px;
+      margin-top: 30px;
+      color: #333333;
     }
   }
 
@@ -51,10 +53,21 @@ section {
 
 #intro-1 {
   background-color: #F7F9FF;
-  height: 400px;
+  height: 690px;
 
   #wrapper {
-    padding: 50px;
+    padding: 3%;
+  }
+
+  h2 {
+    font-size: 30px;
+    color: #333333;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #333333;
   }
 }
 
@@ -106,7 +119,7 @@ section {
   }
 
   .item {
-    margin: 12% 0 8% 0;
+    margin: 18% 0 4% 0;;
   }
 
 }
