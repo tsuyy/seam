@@ -1,69 +1,75 @@
-<div class="ui divider"></div>
-<div class='ui container'>
-  <div class="ui two column grid">
-    <div class="column">
-      <%= image_tag('Final-Logo.svg', class: 'footer-logo') %>
-      <div class='ui text container' id='rights'>
-        Copyright © Seam Collaboration, LLC 2017<br>
-        All Rights Reserved
-      </div>
-      <div id='social-icons'>
-        <button class="ui circular facebook icon button">
-          <i class="facebook icon"></i>
-        </button>
-        <button class="ui circular twitter icon button">
-          <i class="twitter icon"></i>
-        </button>
-        <button class="ui circular linkedin icon button">
-          <i class="linkedin icon"></i>
-        </button>
-        <button class="ui circular google plus icon button">
-          <i class="google plus icon"></i>
-        </button>
-        <button class="ui circular youtube icon button">
-          <i class="youtube icon"></i>
-        </button>
-      </div>
-    </div>
-    <div class="column">
-      <div class='ui three column grid'>
-        <div class="column">
-          <h4 id='red'>SEAM</h4>
-          <div class="ui link list">
-            <%= link_to '/features', {class: 'item'} do %>
-              Features
-            <% end %>
-            <%= link_to '/pricing', {class: 'item'} do %>
-              Pricing
-            <% end %>
-            <%= link_to '/customers', {class: 'item'} do %>
-              Customers
-            <% end %>
-            <%= link_to '/user_stories', {class: 'item'} do %>
-              User Stories
-            <% end %>
-            <%= link_to '/contact', {class: 'item'} do %>
-              Contact
-            <% end %>
-          </div>
+<div class='footer'>
+  <div class='ui container' id='computer-only'>
+    <div class="ui two column grid">
+      <div class="column">
+        <div class="ui input">
+          <input type="text" placeholder="Email adress">
         </div>
-        <div class="column">
-          <h4 id='blue'>LEARN MORE</h4>
-          <div class='ui link list'>
-            <%= link_to '/about', {class: 'item'} do %>
-              About
-            <% end %>
-            <a class='item'>Lorem</a>
-            <a class='item'>Lorem</a>
-          </div>
+        <button class="ui button" id='cta-btn'>
+          Try now for free
+        </button>
+        <div class='ui text container' id='rights'>
+          Copyright © Seam Collaboration, LLC 2017<br>
+          All Rights Reserved
         </div>
-        <div class="column">
-          <h4 id='green'>SUPPORT</h4>
-          <div class='ui link list'>
-            <a class='item'>Lorem</a>
-            <a class='item'>Lorem</a>
-            <a class='item'>Lorem</a>
-            <a class='item'>Lorem</a>
+        <div id='social-icons'>
+          <button class="ui circular facebook icon button">
+            <i class="facebook icon"></i>
+          </button>
+          <button class="ui circular twitter icon button">
+            <i class="twitter icon"></i>
+          </button>
+          <button class="ui circular linkedin icon button">
+            <i class="linkedin icon"></i>
+          </button>
+          <button class="ui circular google plus icon button">
+            <i class="google plus icon"></i>
+          </button>
+          <button class="ui circular youtube icon button">
+            <i class="youtube icon"></i>
+          </button>
+        </div>
+      </div>
+      <div class="column">
+        <div class='ui three column grid'>
+          <div class="column">
+            <h4 id='red'>SEAM</h4>
+            <div class="ui link list">
+              <%= link_to '/features', {class: 'item'} do %>
+                Features
+              <% end %>
+              <%= link_to '/pricing', {class: 'item'} do %>
+                Pricing
+              <% end %>
+              <%= link_to '/customers', {class: 'item'} do %>
+                Customers
+              <% end %>
+              <%= link_to '/user_stories', {class: 'item'} do %>
+                User Stories
+              <% end %>
+              <%= link_to '/contact', {class: 'item'} do %>
+                Contact
+              <% end %>
+            </div>
+          </div>
+          <div class="column">
+            <h4 id='blue'>LEARN MORE</h4>
+            <div class='ui link list'>
+              <%= link_to '/about', {class: 'item'} do %>
+                About
+              <% end %>
+              <a class='item'>Lorem</a>
+              <a class='item'>Lorem</a>
+            </div>
+          </div>
+          <div class="column">
+            <h4 id='green'>SUPPORT</h4>
+            <div class='ui link list'>
+              <a class='item'>Lorem</a>
+              <a class='item'>Lorem</a>
+              <a class='item'>Lorem</a>
+              <a class='item'>Lorem</a>
+            </div>
           </div>
         </div>
       </div>
