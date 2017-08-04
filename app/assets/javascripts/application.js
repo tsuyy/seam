@@ -38,4 +38,15 @@ $(document).on('turbolinks:load', function() {
     $('.ui.sidebar').sidebar('toggle');
   });
 
+
+  $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 0) {
+          $("#cast").addClass("active");
+      }
+      else {
+          $("#cast").removeClass("active");
+      }
+  });
+
 });
