@@ -69,9 +69,10 @@ section {
     height: 40px;
 
     &:hover {
-      background-color: #FFF;
-      color: $primary-green;
-      border: solid 2px $primary-green;
+      background-color: #036D60;
+      -webkit-box-shadow:inset 0px 0px 0px 1px #036D60;
+      -moz-box-shadow:inset 0px 0px 0px 1px #036D60;
+      box-shadow:inset 0px 0px 0px 1px #036D60;
     }
   }
 
@@ -88,6 +89,10 @@ section {
     padding-top: 9%;
   }
 
+  #push {
+    margin-left: 8%;
+  }
+
   p {
     font-size: 17px;
     line-height: 28px;
@@ -97,7 +102,7 @@ section {
   }
 
   .content {
-    padding: 8% 7% 8% 7%;
+    padding: 8% 0% 8% 9%;
   }
 
   .item {
@@ -175,9 +180,10 @@ section {
     }
 
     &:hover {
-      background-color: #FFF;
-      color: $primary-green;
-      border: solid 2px $primary-green;
+      background-color: #036D60;
+      -webkit-box-shadow:inset 0px 0px 0px 1px #036D60;
+      -moz-box-shadow:inset 0px 0px 0px 1px #036D60;
+      box-shadow:inset 0px 0px 0px 1px #036D60;
     }
   }
 }
