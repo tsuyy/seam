@@ -54,6 +54,7 @@ section {
 #intro-1 {
   background-color: #F7F9FF;
   height: 690px;
+  margin-bottom: 20%;
 
   #wrapper {
     padding: 3%;
@@ -62,6 +63,7 @@ section {
   h2 {
     font-size: 30px;
     color: #333333;
+    margin: 2% 0 2% 0;
   }
 
   p {
@@ -69,9 +71,7 @@ section {
     line-height: 28px;
     color: #333333;
   }
-}
 
-#intro-2 {
   button {
     background-color: $primary-green;
     color: #FFF;
@@ -83,12 +83,14 @@ section {
 
     &:hover {
       background-color: #036D60;
-      -webkit-box-shadow:inset 0px 0px 0px 1px #036D60;
-      -moz-box-shadow:inset 0px 0px 0px 1px #036D60;
-      box-shadow:inset 0px 0px 0px 1px #036D60;
+      -webkit-box-shadow:inset 0px 0px 0px 1px #FFF;
+      -moz-box-shadow:inset 0px 0px 0px 1px #FFF;
+      box-shadow:inset 0px 0px 0px 1px #FFF;
     }
   }
+}
 
+#intro-2 {
   img {
     height: 60%;
   }
