@@ -29,6 +29,7 @@ $primary-green: #009688;
 .right {
   a.ui.item {
     border-bottom: 2px solid #FFF;
+    line-height: 35px;
   }
   a.ui.item:hover {
     border-bottom: 2px solid $primary-green;
