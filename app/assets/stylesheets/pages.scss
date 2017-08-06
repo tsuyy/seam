@@ -7,8 +7,6 @@
 // Set variables
 $margin: 3% 0 6% 0;
 $primary-green: #009688;
-$primary-yellow: #ffe370;
-$primary-red: #f04f4a;
 
 html {
   font-family: 'Roboto', sans-serif!important;
@@ -52,7 +50,7 @@ section {
 }
 
 #intro-1 {
-  background-color: #F7F9FF;
+  background-image: linear-gradient(to bottom right,#281ec1,#439fe0);
   height: 960px;
   margin-bottom: 35%;
 
@@ -128,7 +126,7 @@ section {
   }
 
   .content {
-    padding: 8% 0 8% 8%;
+    padding: 8% 0 8% 9%;
   }
 
   .item {
