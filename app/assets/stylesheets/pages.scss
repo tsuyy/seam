@@ -18,9 +18,8 @@ section {
 }
 
 
-#landing, #intro-2,
-#f-2, #f-3, #f-4, #f-5, #f-6, #f-7,
-#p-1, #p-2 {
+#landing, #f-2, #f-3, #f-4,
+#f-5, #f-6, #f-7, #p-1, #p-2 {
   height: 110%;
   margin-bottom: 10%;
 }
@@ -50,23 +49,32 @@ section {
 }
 
 #intro-1 {
-  background-image: linear-gradient(to bottom, #281ec1, #439fe0);
+  background-image: linear-gradient(to bottom, #5f5aaf, #439fe0);
   height: 960px;
   margin-bottom: 35%;
 
-  #wrapper {
-    padding: 3%;
-  }
-
-  h2 {
+  .header {
     font-size: 30px;
     color: #FFF;
-    margin: 2% 0 2% 0;
+    padding: 6% 0 2% 0;
+  }
+
+  .tiny {
+    margin: 1%;
+    float: left!important;
+    margin-right: 6%;
+    width: 60px!important;
+    margin-top: 5%;
+  }
+
+  .text {
+    max-width: 800px!important;
   }
 
   p {
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 25px;
     color: #FFF;
   }
 
@@ -93,29 +101,6 @@ section {
     }
   }
 }
-
-#intro-2 {
-  .image {
-    margin: 1%;
-    float: left!important;
-    margin-right: 6%;
-  }
-
-  .relaxed {
-    width: 125%!important;
-  }
-
-  .text {
-    max-width: 800px!important;
-  }
-
-  p {
-    font-size: 16px;
-    line-height: 24px;
-    padding-top: 25px;
-  }
-}
-
 
 #intro-1, #f-1, #f-4, #p-1, #contact {
   h1 {
