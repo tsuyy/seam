@@ -16,42 +16,15 @@
   </section>
 </div>
 <section id='intro-1'>
-  <div class="ui centered aligned container stackable grid">
-    <div class='ui items'>
-      <div class='item'>
-        <div class='middle aligned content' id='wrapper'>
-          <h2 class='header'>Meet Seam</h2>
-          <div class='description'>
-            <p>
-              People see productivity as having different platforms or applications coinciding simultaneously, but this delays productivity as well as time by switching between screens or applications.
-              So is this really the solution to productivity? We believe that Seam can offer a versatile and intuitive collaborative space where team communication, project tracking,
-              and document editing can be achieved in one all-inclusive platform. Seam allows users to just stay in one place and provides a more fun,
-              immersive and seamless alternative to all the other collaboration tools on the market. We're all about maximizing business outcomes and motivating the team spirit.<br><br>
-              Here at Seam, we understand that productivity isn't about having more tools. It's about having less tools, that do more. Collaborate together, collaborate seamlessly.
-            </p>
-          </div>
-        </div>
-      </div>
-      <%= image_tag('Google-Chrome-Flat-Browser.png', class: 'ui image') %>
-    </div>
-    <div class='ui center aligned container'>
-      <%= link_to '/features' do %>
-      <button class="ui large button">
-        Find Out More
-      </button>
-      <% end %>
-    </div>
-  </div>
-</section>
-<section id='intro-2'>
   <div class='ui text container'>
-    <div class="ui two column relaxed stackable grid">
+    <h2 class='ui center aligned header'>Meet Seam</h2>
+    <div class="ui two column stackable grid">
       <div class="column">
         <%= image_tag('doc.svg', class: 'ui tiny image') %>
         <p>Bring your documents to life by editing together in real-time</p>
       </div>
       <div class="column">
-        <%= image_tag('communication.svg', class: 'ui tiny image') %>
+        <%= image_tag('comm.svg', class: 'ui tiny image') %>
         <p>Send messages directly to a team member or to a focused channel</p>
       </div>
       <div class="column">
@@ -59,9 +32,17 @@
         <p>Track all open items, tasks in progress, and recently completed projects</p>
       </div>
       <div class="column">
-        <%= image_tag('gamification.svg', class: 'ui tiny image') %>
+        <%= image_tag('game.svg', class: 'ui tiny image') %>
         <p>Engage and motivate team members by rewarding actions</p>
       </div>
     </div>
+  </div>
+  <div class='ui center aligned container'>
+    <%= image_tag('Google-Chrome-Flat-Browser.png', class: 'ui centered image') %>
+    <%= link_to '/features' do %>
+    <button class="ui large button">
+      Find Out More
+    </button>
+    <% end %>
   </div>
 </section>
