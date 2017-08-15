@@ -102,7 +102,7 @@ section {
   }
 }
 
-#intro-1, #f-1, #f-4, #p-1, #contact {
+#intro-1, #f-1, #f-4, #contact {
   h1 {
     margin: 21% 0 5%;
   }
@@ -205,6 +205,61 @@ section {
       -moz-box-shadow:inset 0px 0px 0px 1px #FFF;
       box-shadow:inset 0px 0px 0px 1px #FFF;
     }
+  }
+}
+
+#p-1 {
+  .card {
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin: 20% 0 15% 0;
+  }
+
+  #free-trial {
+    background-color: #78cfbf;
+
+    .header {
+      color: #FFF;
+    }
+  }
+
+  #ft-btn {
+    background-color: #78cfbf;
+    color: #FFF;
+    font-size: 15px;
+    height: 40px;
+  }
+
+  #awesome-plan {
+    background-color: #3ec6e0;
+
+    .header {
+      color: #FFF;
+    }
+  }
+
+  #ap-btn {
+    background-color: #3ec6e0;
+    color: #FFF;
+    font-size: 15px;
+    height: 40px;
+  }
+
+  #special-plan {
+    background-color: #e3536c;
+
+    .header {
+      color: #FFF;
+    }
+  }
+
+  #sp-btn {
+    background-color: #e3536c;
+    color: #FFF;
+    font-size: 15px;
+    height: 40px;
   }
 }
 
