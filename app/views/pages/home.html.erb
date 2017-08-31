@@ -1,6 +1,6 @@
 <div class='ui container'>
   <section id='landing'>
-    <%= image_tag('3.svg', class: 'ui right floated large image')%>
+    <%= image_tag('homepage.svg', class: 'ui right floated large image')%>
     <h1 class='ui left aligned header'>
       Collaboration,<br> done effortlessly.
        <div class="sub header">
@@ -16,33 +16,40 @@
   </section>
 </div>
 <section id='intro-1'>
-  <div class='ui text container'>
-    <h2 class='ui center aligned header'>Meet Seam</h2>
-    <div class="ui two column stackable grid">
-      <div class="column">
-        <%= image_tag('doc.svg', class: 'ui tiny image') %>
-        <p>Bring your documents to life by editing together in real-time</p>
+  <div class='ui stackable two column grid' id='gradient-block'>
+    <div class='column'>
+      <div class='ui center aligned container'>
+        <%= image_tag('Google-Chrome-Flat-Browser.png', class: 'ui left floated image') %>
+        <%= link_to '/features' do %>
+        <button class="ui large button">
+          Find Out More
+        </button>
+        <% end %>
       </div>
-      <div class="column">
-        <%= image_tag('comm.svg', class: 'ui tiny image') %>
-        <p>Send messages directly to a team member or to a focused channel</p>
-      </div>
-      <div class="column">
-        <%= image_tag('track.svg', class: 'ui tiny image') %>
-        <p>Track all open items, tasks in progress, and recently completed projects</p>
-      </div>
-      <div class="column">
-        <%= image_tag('game.svg', class: 'ui tiny image') %>
-        <p>Engage and motivate team members by rewarding actions</p>
+    </div>
+    <div class='column' id='right'>
+      <div class='ui text container'>
+        <h2 class='ui header'>Meet Seam</h2>
+        <div class="ui one column stackable grid">
+          <div class="column">
+            <%= image_tag('doc.svg', class: 'ui tiny image') %>
+            <p>Bring your documents to life by editing together in real-time</p>
+          </div>
+          <div class="column">
+            <%= image_tag('comm.svg', class: 'ui tiny image') %>
+            <p>Send messages directly to a team member or to a focused channel</p>
+          </div>
+          <div class="column">
+            <%= image_tag('track.svg', class: 'ui tiny image') %>
+            <p>Track all open items, tasks in progress, and recently completed projects</p>
+          </div>
+          <div class="column">
+            <%= image_tag('game.svg', class: 'ui tiny image') %>
+            <p>Engage and motivate team members by rewarding actions</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class='ui center aligned container'>
-    <%= image_tag('Google-Chrome-Flat-Browser.png', class: 'ui centered image') %>
-    <%= link_to '/features' do %>
-    <button class="ui large button">
-      Find Out More
-    </button>
-    <% end %>
-  </div>
 </section>
+<%= render 'pages/cta' %>
