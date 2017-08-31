@@ -38,6 +38,10 @@ section {
     }
   }
 
+  .image {
+    margin: 1%;
+  }
+
   button {
     height: 40px;
     font-size: 15px;
@@ -45,26 +49,32 @@ section {
 }
 
 #no-credit {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #intro-1 {
-  background-image: linear-gradient(to bottom, #5f5aaf, #439fe0);
+  background-image: linear-gradient(to bottom, #00b0ff, #80d8ff);
   height: 960px;
-  margin-bottom: 35%;
+  margin-bottom: 26%;
+
+  #gradient-block {
+    padding: 5%;
+  }
+
+  #right {
+    padding-left: 5%;
+  }
 
   .header {
     font-size: 30px;
     color: #FFF;
-    padding: 6% 0 2% 0;
+    padding: 0 0 2% 25%;
   }
 
   .tiny {
     margin: 1%;
     float: left!important;
-    margin-right: 6%;
     width: 60px!important;
-    margin-top: 5%;
   }
 
   .text {
@@ -79,19 +89,19 @@ section {
   }
 
   button {
-    background-color: $primary-green;
-    color: #FFF;
-    border: solid 2px $primary-green;
+    background-color: #FFF;
+    color: #00B0FF;
+    border: solid 1px #80D8FF;
     border-radius: 3px;
     width: 160px;
     font-size: 15px;
     height: 40px;
 
     &:hover {
-      background-color: #036D60;
-      -webkit-box-shadow:inset 0px 0px 0px 1px #036D60;
-      -moz-box-shadow:inset 0px 0px 0px 1px #036D60;
-      box-shadow:inset 0px 0px 0px 1px #036D60;
+      background-color: #FFF;
+      -webkit-box-shadow:inset 0px 0px 0px 1px #00B0FF;
+      -moz-box-shadow:inset 0px 0px 0px 1px #00B0FF;
+      box-shadow:inset 0px 0px 0px 1px #00B0FF;
     }
 
     &:active {
@@ -102,7 +112,7 @@ section {
   }
 }
 
-#intro-1, #f-1, #f-4, #contact {
+#intro-1, #f-1, #f-4 {
   h1 {
     margin: 21% 0 5%;
   }
@@ -265,6 +275,30 @@ section {
 
 #social-icons, #rights {
   margin: $margin;
+}
+
+#about-us {
+  h1 {
+    margin: 10% 0 5%;
+  }
+}
+
+#cta-right {
+  padding-left: 7%;
+  padding-bottom: 7%;
+}
+
+#cta-left {
+  padding-left: 12%;
+
+  #cta-h {
+    font-size: 25px;
+  }
+
+  #cta-sh {
+    font-size: 14px;
+    line-height: 30px;
+  }
 }
 
 #cta-btn {
