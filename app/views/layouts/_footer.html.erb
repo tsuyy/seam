@@ -2,20 +2,11 @@
   <div class='ui container' id='computer-only'>
     <div class="ui two column grid">
       <div class="column">
+        <%= image_tag('logo.png', class: 'mini ui image') %>
         <div class='ui text container' id='rights'>
-          Copyright © Seam Collaboration, LLC 2017<br>
+          Copyright © Seam<br>
+          Collaboration, LLC 2017<br>
           All Rights Reserved
-        </div>
-        <div id='social-icons'>
-          <button class="ui circular facebook icon button">
-            <i class="facebook icon"></i>
-          </button>
-          <button class="ui circular linkedin icon button">
-            <i class="linkedin icon"></i>
-          </button>
-          <button class="ui circular google plus icon button">
-            <i class="google plus icon"></i>
-          </button>
         </div>
       </div>
       <div class="column">
@@ -55,6 +46,34 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class='sub-footer'>
+    <div class='ui grid container'>
+      <div class='two column row'>
+        <div class='left floated column' id='privacy'>
+          <%= link_to '/' do %>
+            Privacy & Terms
+          <% end %>
+          <%= link_to '/' do %>
+            Contact Us
+          <% end %>
+        </div>
+        <div class='right floated right aligned column'>
+          <div id='social-icons'>
+            <button class="ui circular facebook icon button">
+              <i class="facebook icon"></i>
+            </button>
+            <button class="ui circular linkedin icon button">
+              <i class="linkedin icon"></i>
+            </button>
+            <button class="ui circular google plus icon button">
+              <i class="google plus icon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
