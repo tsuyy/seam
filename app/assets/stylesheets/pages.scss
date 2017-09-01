@@ -202,9 +202,9 @@ section {
 
     &:hover {
       background-color: #036D60;
-      -webkit-box-shadow:inset 0px 0px 0px 1px #036D60;
-      -moz-box-shadow:inset 0px 0px 0px 1px #036D60;
-      box-shadow:inset 0px 0px 0px 1px #036D60;
+      -webkit-box-shadow:inset 0px 0px 0px 1px #3569a7;
+      -moz-box-shadow:inset 0px 0px 0px 1px #3569a7;
+      box-shadow:inset 0px 0px 0px 1px #3569a7;
     }
 
     &:active {
@@ -237,6 +237,10 @@ section {
     color: #FFF;
     font-size: 15px;
     height: 40px;
+
+    &:hover {
+      background-color: #67b5a7;
+    }
   }
 
   #awesome-plan {
@@ -252,6 +256,10 @@ section {
     color: #FFF;
     font-size: 15px;
     height: 40px;
+
+    &:hover {
+      background-color: #33a5bb;
+    }
   }
 
   #special-plan {
@@ -267,6 +275,10 @@ section {
     color: #FFF;
     font-size: 15px;
     height: 40px;
+
+    &:hover {
+      background-color: #d04b62;
+    }
   }
 }
 
