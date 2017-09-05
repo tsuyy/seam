@@ -18,27 +18,6 @@
 
 $(document).on('turbolinks:load', function() {
 
-  $('.toggle').click(function() {
-     $(this).toggleClass('active').siblings().removeClass('active');
-  });
-
-  $('#doc').click(function() {
-    $('#toggle-img').attr('src', 'http://sinfulsalt.com/wordpress/wp-content/uploads/2012/07/placeholder-470x352.jpg');
-  });
-
-  $('#dashboard').click(function() {
-    $('#toggle-img').attr('src', 'http://fakeimg.pl/400x200');
-  });
-
-  $('#keep-records').click(function() {
-    $('#toggle-img').attr('src', 'http://www.cyrixsystems.com/images/portfolio-images/portfolio-item-1.jpg');
-  });
-
-  $('#sidebar-toggle').click(function() {
-    $('.ui.sidebar').sidebar('toggle');
-  });
-
-
   $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       if (scroll > 0) {

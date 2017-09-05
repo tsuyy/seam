@@ -1,10 +1,10 @@
 <div class='ui container'>
   <section id='landing'>
-    <%= image_tag('3.svg', class: 'ui right floated large image')%>
+    <%= image_tag('homepage.svg', class: 'ui right floated large image')%>
     <h1 class='ui left aligned header'>
-      Collaborate together, collaborate seamlessly.
+      Collaboration,<br> done effortlessly.
        <div class="sub header">
-         Seam makes collaborating together productive, engaging and effortless.
+         Seam is a collaborative space that promotes synergetic learning and teamwork experiences by consolidating documents, spreadsheet, PowerPoint, task reminder, and real-time communication, all in one platform.
        </div>
     </h1>
     <div class="ui left aligned container" id='signup'>
@@ -16,88 +16,40 @@
   </section>
 </div>
 <section id='intro-1'>
-  <div class="ui text continer grid">
-    <div class='eight wide column'>
-      <div id='wrapper'>
-        <h2>Meet Seam</h2>
-        <p>
-          People see productivity as having different platforms or applications coinciding simultaneously, but this delays productivity as well as time by switching between screens or applications.
-          So is this really the solution to productivity? We believe that Seam can offer a versatile and intuitive collaborative space where team communication, project tracking,
-          and document editing can be achieved in one all-inclusive platform. Seam allows users to just stay in one place and provides a more fun,
-          immersive and seamless alternative to all the other collaboration tools on the market. We're all about maximizing business outcomes and motivating the team spirit.<br><br>
-          Here at Seam, we understand that productivity isn't about having more tools. It's about having less tools, that do more. Collaborate together, collaborate seamlessly.
-        </p>
+  <div class='ui stackable two column grid' id='block'>
+    <div class='nine wide column'>
+      <div class='ui center aligned container'>
+        <%= image_tag('Google-Chrome-Flat-Browser.png', class: 'ui left floated image') %>
       </div>
     </div>
-    <div class='eight wide column'>
-    </div>
-  </div>
-</section>
-<div class='ui container'>
-  <section id='intro-2'>
-    <div class='ui container'>
-      <div class='ui stackable grid'>
-        <div class="ui items">
-          <div class="item">
-            <%= image_tag('1.svg', class: 'ui large image')%>
-            <div class="middle aligned content">
-              <h2 class='header'>Ultimate team collaboration</h2>
-              <div class="description">
-                <p>
-                  Seam’s all-inclusive platform is essentially a canvas for real-time communication and collaboration.
-                  Watch your team’s workflow reinvent itself with dynamic living docs, focused project tracking, and seamless team communication.
-                </p>
-              </div>
-            </div>
+    <div class='seven wide column'>
+      <div class='ui text container'>
+        <h2 class='ui header'>Meet Seam</h2>
+        <div class="ui one column stackable grid">
+          <div class="column">
+            <%= image_tag('doc.svg', class: 'ui tiny image') %>
+            <p>Bring your documents to life by editing together in real-time</p>
           </div>
-          <div class="item">
-            <div class="middle aligned content" id='padded'>
-              <h2 class='header'>Efficiency, on a whole ‘nother level</h2>
-              <div class="description">
-                <p>
-                  Faster results, fewer errors. Seam notifies teams when tasks are done so you can move on to the next.
-                  Need to prioritize a hot item? Just drag and drop, it’s that easy.
-                </p>
-              </div>
-            </div>
-            <%= image_tag('2.svg', class: 'ui right floated large image')%>
+          <div class="column">
+            <%= image_tag('comm.svg', class: 'ui tiny image') %>
+            <p>Send messages directly to a team member or to a focused channel</p>
           </div>
-          <div class="item">
-            <%= image_tag('5.svg', class: 'ui large image')%>
-            <div class="middle aligned content">
-              <h2 class='header'>Harness the power of play</h2>
-              <div class="description">
-                <p>
-                  Seam’s revolutionary gamified experience aims to make work something of the past.
-                  Our integrated game elements leverage our love for competition and rewards,
-                  and is used to encourage almost every action as long as teams live and breathe on Seam.
-                  When work becomes a game, companies win.
-                </p>
-              </div>
-            </div>
+          <div class="column">
+            <%= image_tag('track.svg', class: 'ui tiny image') %>
+            <p>Track all open items, tasks in progress, and recently completed projects</p>
           </div>
-          <div class="item">
-            <div class="middle aligned content" id='padded'>
-              <h2 class='header'>Never miss a beat, ever.</h2>
-              <div class="description">
-                <p>
-                  Seam is multi-platform! You can use it on a PC or Mac, Android or iPhone.
-                  In fact, you don’t even need an internet connection as you can work offline.
-                  Your files and team conversations are stored securely in the cloud, accessible from any device you log in from.
-                </p>
-              </div>
-            </div>
-            <%= image_tag('4.svg', class: 'ui large image')%>
+          <div class="column">
+            <%= image_tag('game.svg', class: 'ui tiny image') %>
+            <p>Engage and motivate team members by rewarding actions</p>
           </div>
-          <div class='ui center aligned container'>
-            <%= link_to '/features' do %>
-              <button class="ui large button">
-                Find Out More
-              </button>
-            <% end %>
-          </div>
+          <%= link_to '/features' do %>
+            <button class="ui large button">
+              Find Out More
+            </button>
+          <% end %>
         </div>
       </div>
     </div>
-  </section>
-</div>
+  </div>
+</section>
+<%= render 'pages/cta' %>
