@@ -12,19 +12,55 @@
       font-size: 38px!important;
       width: 100%!important;
       margin: 0 auto!important;
+      padding-top: 25%;
 
       .sub {
         margin-bottom: 30px;
       }
     }
 
+    .image {
+      margin: 5% 0 5% 0;
+    }
+
     #signup {
       text-align: center!important;
+
+      #no-credit {
+        margin: 0;
+      }
     }
   }
 
   #intro-1 {
     height: 900px;
+
+    .header {
+      text-align: center;
+      padding: 0;
+    }
+
+    a {
+      margin: 0 auto;
+      button {
+        margin-top: 25%;
+      }
+    }
+
+    p {
+      padding-top: 12px;
+    }
+
+    .tiny {
+      margin: 3%;
+      width: 50px !important;
+    }
+
+    #block {
+      .left {
+        margin: 5% 0 5% 0;
+      }
+    }
   }
 
   .logo {
