@@ -18,16 +18,16 @@ section {
 }
 
 
-#landing, #p-1, #p-2 {
+#landing, #p-1 {
   height: 110%;
   margin-bottom: 10%;
 }
 
-#landing, #a-1 {
+#landing {
   h1 {
-    margin: 21% 0 3% 0;
+    margin: 30% 0 3% 0;
     font-size: 56px!important;
-    width: 52%;
+    width: 98%;
 
     .sub {
       font-size: 16px!important;
@@ -38,7 +38,7 @@ section {
   }
 
   .image {
-    margin: 1%;
+    margin-top: 20%;
   }
 
   button {
@@ -58,6 +58,10 @@ section {
 
   #block {
     padding-top: 2%;
+
+    .left {
+      box-shadow: 5px 10px 20px rgba(10, 5, 2, 0.09);
+    }
   }
 
   .header {
@@ -119,7 +123,7 @@ section {
   height: 110%;
 
   img {
-    height: 90%;
+    height: 85%;
   }
 
   h2 {
@@ -141,16 +145,17 @@ section {
   }
 
   #padded {
-    padding-left: 6%;
+    padding-left: 5%;
   }
 
   .desc {
     padding-top: 14%;
   }
 
-  #bg {
-    background-color: #F6F6F6;
-  }
+}
+
+#bg {
+  background-color: #F6F6F6;
 }
 
 #p-1 {
@@ -158,64 +163,92 @@ section {
     margin: 0 auto;
   }
 
-  h1 {
-    margin: 20% 0 15% 0;
+  h2 {
+    font-size: 40px!important;
+    margin-top: 10%;
+    width: 58%;
+
+    .sub {
+      font-size: 16px!important;
+      line-height: 28px;
+      margin-top: 30px;
+      color: #333333;
+    }
+  }
+
+  .row {
+    margin: 8% 0 8% 0;
   }
 
   #free-trial {
-    background-color: #78cfbf;
+    background-color: #4A90E2;
+    height: 129px;
 
     .header {
       color: #FFF;
+      font-size: 45px;
+      margin-top: 53px;
     }
   }
 
   #ft-btn {
-    background-color: #78cfbf;
+    background-color: #4A90E2;
     color: #FFF;
     font-size: 15px;
     height: 40px;
 
     &:hover {
-      background-color: #67b5a7;
+      background-color: #5d9eea;
     }
   }
 
   #awesome-plan {
-    background-color: #3ec6e0;
+    background-color: #F7990D;
+    height: 155px;
 
     .header {
       color: #FFF;
+      margin-top: 65px;
+
+      span {
+        font-size: 45px;
+      }
     }
   }
 
   #ap-btn {
-    background-color: #3ec6e0;
+    background-color: #F7990D;
     color: #FFF;
     font-size: 15px;
     height: 40px;
 
     &:hover {
-      background-color: #33a5bb;
+      background-color: #f7a72f;
     }
   }
 
   #special-plan {
-    background-color: #e3536c;
+    background-color: #7ED321;
+    height: 180.5px;
 
     .header {
       color: #FFF;
+      margin-top: 65px;
+
+      span {
+        font-size: 45px;
+      }
     }
   }
 
   #sp-btn {
-    background-color: #e3536c;
+    background-color: #7ED321;
     color: #FFF;
     font-size: 15px;
     height: 40px;
 
     &:hover {
-      background-color: #d04b62;
+      background-color: #91d646;
     }
   }
 }
