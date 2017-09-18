@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 // Set variables
-$margin: 3% 0 6% 0;
 $primary-blue: #4A90E2;
+$primary-gray: #FBFBFB;
 
 html {
   font-family: 'Roboto', sans-serif!important;
@@ -20,7 +20,7 @@ section {
 
 #landing, #p-1 {
   height: 110%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 #landing {
@@ -52,9 +52,9 @@ section {
 }
 
 #intro-1 {
-  background-color: #F6F6F6;
+  background-color: $primary-gray;
   height: 710px;
-  margin-bottom: 7%;
+  margin-bottom: 5%;
 
   #block {
     padding-top: 2%;
@@ -65,15 +65,16 @@ section {
   }
 
   .header {
-    font-size: 30px;
     color: #000;
-    padding: 0 0 2% 25%;
+    line-height: 30px;
+    padding: 5% 0 5% 15%;
+    font-size: 35px;
   }
 
   .tiny {
-    margin: 1%;
-    float: left!important;
-    width: 60px!important;
+    margin: 0% 4% 0 15%;
+    float: left !important;
+    width: 50px !important;
   }
 
   .text {
@@ -82,9 +83,9 @@ section {
 
   p {
     font-size: 16px;
-    line-height: 24px;
-    padding-top: 25px;
+    line-height: 26px;
     color: #000;
+    margin-bottom: 2%;
   }
 
   button {
@@ -95,7 +96,8 @@ section {
     width: 160px;
     font-size: 15px;
     height: 40px;
-    margin-top: 46%;
+    margin-top: 20%;
+    margin-left: 72%;
 
     &:hover {
       background-color: #3569a7;
@@ -112,18 +114,12 @@ section {
   }
 }
 
-#intro-1 {
-  h1 {
-    margin: 21% 0 5%;
-  }
-}
-
 #f-1 {
   margin-top: 5%;
   height: 110%;
 
   img {
-    height: 85%;
+    height: 95%;
   }
 
   h2 {
@@ -154,8 +150,8 @@ section {
 
 }
 
-#bg {
-  background-color: #F6F6F6;
+#gray-bg {
+  background-color: $primary-gray;
 }
 
 #p-1 {
@@ -182,7 +178,7 @@ section {
 
   #free-trial {
     background-color: #4A90E2;
-    height: 129px;
+    height: 93px;
 
     .header {
       color: #FFF;
@@ -208,7 +204,7 @@ section {
 
     .header {
       color: #FFF;
-      margin-top: 65px;
+      margin-top: 50px;
 
       span {
         font-size: 45px;
@@ -229,11 +225,11 @@ section {
 
   #special-plan {
     background-color: #7ED321;
-    height: 180.5px;
+    height: 190.75px;
 
     .header {
       color: #FFF;
-      margin-top: 65px;
+      margin-top: 50px;
 
       span {
         font-size: 45px;
@@ -260,13 +256,16 @@ section {
 }
 
 #cta-block {
-  margin-top: 4%;
-  margin-bottom: -4%;
+  margin-top: 6%;
+  margin-bottom: -3%;
 }
 
 #cta-right {
-  padding-left: 7%;
   padding-bottom: 7%;
+
+  input {
+    width: 385px;
+  }
 }
 
 #cta-left {
