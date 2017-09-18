@@ -1,6 +1,9 @@
 <section id='f-1'>
-  <div class='ui stackable grid'>
-    <div class="two column row">
+  <div class='ui computer reversed equal width stackable grid'>
+    <div class="row">
+      <div class="column">
+        <%= image_tag('collaborate.svg', class: 'ui huge image')%>
+      </div>
       <div class="column" id='padded'>
         <div class='desc'>
           <h2 class='header'>Ultimate team collaboration</h2>
@@ -10,14 +13,8 @@
           </p>
         </div>
       </div>
-      <div class="column" id='padded'>
-        <%= image_tag('collaborate.svg', class: 'ui huge image')%>
-      </div>
     </div>
-    <div class="two column row" id='bg'>
-      <div class="column" id='padded'>
-        <%= image_tag('never-miss-a-beat.svg', class: 'ui huge image')%>
-      </div>
+    <div class="row" id='gray-bg'>
       <div class="column" id='padded'>
         <div class='desc'>
           <h2 class='header'>Never miss a beat, ever.</h2>
@@ -29,8 +26,14 @@
           </p>
         </div>
       </div>
+      <div class="column" id='padded'>
+        <%= image_tag('never-miss-a-beat.svg', class: 'ui huge image')%>
+      </div>
     </div>
-    <div class="two column row">
+    <div class="row">
+      <div class="column" id='padded'>
+        <%= image_tag('efficiency.svg', class: 'ui huge image')%>
+      </div>
       <div class="column" id='padded'>
         <div class='desc'>
           <h2 class='header'>Efficiency, on a<br>whole ‘nother level</h2>
@@ -40,14 +43,8 @@
           </p>
         </div>
       </div>
-      <div class="column" id='padded'>
-        <%= image_tag('efficiency.svg', class: 'ui huge image')%>
-      </div>
     </div>
-    <div class="two column row" id='bg'>
-      <div class="column" id='padded'>
-        <%= image_tag('gamification.svg', class: 'ui huge image')%>
-      </div>
+    <div class="row" id='gray-bg'>
       <div class="column" id='padded'>
         <div class='desc'>
           <h2 class='header'>Harness the power of play</h2>
@@ -58,6 +55,9 @@
             When work becomes a game, companies win.
           </p>
         </div>
+      </div>
+      <div class="column" id='padded'>
+        <%= image_tag('gamification.svg', class: 'ui huge image')%>
       </div>
     </div>
   </div>
