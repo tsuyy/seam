@@ -59,6 +59,7 @@ section {
 
     .left {
       box-shadow: 5px 10px 20px rgba(10, 5, 2, 0.09);
+      margin-left: 5%;
     }
   }
 
@@ -145,6 +146,10 @@ section {
 #p-1 {
   .card {
     margin: 0 auto;
+  }
+
+  .cards {
+    margin: 5% 0 5% 0;
   }
 
   h2 {
@@ -237,9 +242,28 @@ section {
   }
 }
 
+#p-2 {
+  h3 {
+    padding: 5%;
+  }
+
+  .sub {
+    padding-top: 3%;
+    width: 80%;
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+
 #about-us {
   h1 {
     margin: 10% 0 5%;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #333333;
   }
 }
 
