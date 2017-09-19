@@ -14,9 +14,7 @@ html {
 
 section {
   min-height: 400px;
-
 }
-
 
 #landing, #p-1 {
   height: 110%;
@@ -118,10 +116,6 @@ section {
   margin-top: 5%;
   height: 110%;
 
-  img {
-    height: 95%;
-  }
-
   h2 {
     font-size: 40px;
     color: #333333;
@@ -131,23 +125,17 @@ section {
     font-size: 17px;
     line-height: 28px;
     color: #333333;
-    padding-top: 2%;
+    padding-top: 3%;
     width: 500px;
   }
 
   .row {
     height: 540px!important;
-    padding-top: 5%;
   }
 
   #padded {
-    padding-left: 5%;
+    margin-right: 20%;
   }
-
-  .desc {
-    padding-top: 14%;
-  }
-
 }
 
 #gray-bg {
