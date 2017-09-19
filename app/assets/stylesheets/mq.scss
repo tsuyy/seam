@@ -133,8 +133,34 @@
   #p-1 {
     h2 {
       font-size: 38px !important;
-      margin-top: 0%;
+      margin-top: 15%;
       text-align: center;
+      width: 100%;
+    }
+
+    .card {
+      margin-bottom: 10%;
+    }
+
+    #free-trial {
+      height: 190.75px;
+
+      .header {
+        margin-top: 53px;
+      }
+    }
+
+    #awesome-plan {
+      height: 190.75px;
+    }
+  }
+
+  #p-2 {
+    h3 {
+      text-align: center;
+    }
+
+    .sub {
       width: 100%;
     }
   }
