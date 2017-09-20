@@ -171,10 +171,33 @@
   #mobile-only {
     display: none!important;
   }
+
+  #p-1 {
+    img {
+      margin-top: 15%;
+    }
+
+    h2 {
+      width: 100%;
+    }
+  }
+
+  #cta-right {
+    input {
+      width: 175px!important;
+    }
+  }
 }
 
 /* Computer / Desktop / iPad Landscape / Widescreen */
-@media only screen and (min-width: 1024px) and (max-width: 5000px) {
+@media only screen and (min-width: 1023px) and (max-width: 1920px) {
+  #mobile-only {
+    display: none!important;
+  }
+}
+
+/* Superwide screen */
+@media only screen and (min-width: 1919px) and (max-width: 5000px) {
   #mobile-only {
     display: none!important;
   }
