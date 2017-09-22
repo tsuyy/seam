@@ -93,7 +93,7 @@
     text-align: center;
     padding-right: 0%!important;
   }
-  
+
   #privacy a {
     padding-right: 4%!important;
   }
@@ -161,6 +161,13 @@
     }
 
     .sub {
+      width: 100%;
+    }
+  }
+
+  #about-us {
+    img {
+      margin-top: 30%;
       width: 100%;
     }
   }
