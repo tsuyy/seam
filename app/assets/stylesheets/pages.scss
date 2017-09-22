@@ -116,7 +116,6 @@ section {
 }
 
 .features {
-  margin-top: 5%;
   height: 100%!important;
 
   h2 {
@@ -137,8 +136,12 @@ section {
   }
 
   #padded {
-    padding-top: 3%;
+    padding-top: 2%;
   }
+}
+
+#f-1 {
+  margin: 5% 0 2% 0;
 }
 
 #gray-bg {
@@ -277,7 +280,7 @@ section {
 }
 
 #cta-block {
-  margin-top: 6%;
+  margin-top: 4%;
   margin-bottom: -3%;
 }
 

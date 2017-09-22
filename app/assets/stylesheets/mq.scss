@@ -64,7 +64,7 @@
     }
   }
 
-  #f-1 {
+  .features {
     h2 {
       font-size: 30px;
       text-align: center;
@@ -83,10 +83,6 @@
       height: 100%;
       margin: 10% 0 5% 0;
     }
-
-    .row {
-      height: 100%!important;
-    }
   }
 
   .logo {
@@ -95,7 +91,11 @@
 
   #privacy, #social-icons {
     text-align: center;
-    padding-right: 0px!important;
+    padding-right: 0%!important;
+  }
+  
+  #privacy a {
+    padding-right: 4%!important;
   }
 
   .footer {
