@@ -115,9 +115,9 @@ section {
   }
 }
 
-#f-1 {
+.features {
   margin-top: 5%;
-  height: 110%;
+  height: 100%!important;
 
   h2 {
     font-size: 40px;
@@ -133,17 +133,11 @@ section {
   }
 
   #collab {
-    width: 85%;
-  }
-
-  .row {
-    height: 350px!important;
-    margin-top: 5%;
+    width: 408.81px;
   }
 
   #padded {
-    margin-right: 6%;
-    margin-left: 6%;
+    padding-top: 3%;
   }
 }
 
