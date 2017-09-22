@@ -28,9 +28,6 @@
           <div class="column">
             <h4 id='blue'>LEARN MORE</h4>
             <div class='ui link list'>
-              <%= link_to '/about', {class: 'item'} do %>
-                About
-              <% end %>
               <a class='item'>Lorem</a>
               <a class='item'>Lorem</a>
             </div>
@@ -50,8 +47,11 @@
     <div class='ui stackable grid container'>
       <div class='two column row'>
         <div class='left floated column' id='privacy'>
-          <%= link_to '/' do %>
-            Privacy & Terms
+          <%= link_to 'https://termsfeed.com/terms-conditions/d5bd92ccbed62d12d4ab89abebf18ba7' do %>
+            Terms & Conditions
+          <% end %>
+          <%= link_to 'https://termsfeed.com/privacy-policy/e3b1d04bda51b008e4932188dd3290f3' do %>
+            Privacy Policy
           <% end %>
           <%= link_to '/' do %>
             Contact Us

@@ -18,6 +18,10 @@
 
 $(document).on('turbolinks:load', function() {
 
+  $('#sidebar-toggle').click(function() {
+    $('.ui.sidebar').sidebar('toggle');
+  });
+
   $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       if (scroll > 0) {

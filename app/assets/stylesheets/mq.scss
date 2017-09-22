@@ -12,38 +12,85 @@
       font-size: 38px!important;
       width: 100%!important;
       margin: 0 auto!important;
+      padding-top: 25%;
 
       .sub {
         margin-bottom: 30px;
       }
     }
 
+    .image {
+      margin: 5% 0 5% 0;
+    }
+
     #signup {
       text-align: center!important;
+
+      #no-credit {
+        margin: 0;
+      }
     }
   }
 
   #intro-1 {
     height: 900px;
+
+    .header {
+      text-align: center;
+      padding: 0;
+    }
+
+    a {
+      margin: 0 auto;
+
+      button {
+        margin: 25% 0 0 0 !important;
+      }
+    }
+
+    p {
+      padding-top: 12px;
+    }
+
+    .tiny {
+      margin: 3%;
+      width: 50px !important;
+    }
+
+    #block {
+      .left {
+        margin: 5% 0 5% 0;
+      }
+    }
+  }
+
+  #f-1 {
+    h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 28px;
+      color: #333333;
+      padding-top: 2%;
+      width: 100%;
+      text-align: center;
+    }
+
+    img {
+      height: 100%;
+      margin: 10% 0 5% 0;
+    }
+
+    .row {
+      height: 100%!important;
+    }
   }
 
   .logo {
     height: 120px;
-  }
-
-  #f-3 {
-    .items {
-      margin-left: 0%;
-      margin: 0 auto;
-    }
-
-    #push {
-      margin-left: 0%;
-    }
-
-    .content {
-      padding: 8% 0% 8% 0%;
-    }
   }
 
   #privacy, #social-icons {
@@ -70,6 +117,10 @@
 
   #cta-right, #cta-left {
     text-align: center;
+
+    input, #cta-btn {
+      width: 260px!important;
+    }
   }
 
   #cta-btn {
@@ -77,6 +128,41 @@
     width: 202px;
     margin-right: 2%;
     margin-bottom: 6%;
+  }
+
+  #p-1 {
+    h2 {
+      font-size: 38px !important;
+      margin-top: 15%;
+      text-align: center;
+      width: 100%;
+    }
+
+    .card {
+      margin-bottom: 10%;
+    }
+
+    #free-trial {
+      height: 190.75px;
+
+      .header {
+        margin-top: 53px;
+      }
+    }
+
+    #awesome-plan {
+      height: 190.75px;
+    }
+  }
+
+  #p-2 {
+    h3 {
+      text-align: center;
+    }
+
+    .sub {
+      width: 100%;
+    }
   }
 }
 
@@ -86,33 +172,32 @@
     display: none!important;
   }
 
-  #f-3 {
-    .items {
-      margin-left: 0%;
-      margin: 0 auto;
-    }
-
-    #push {
-      margin-left: 0%;
-    }
-
-    .content {
-      padding: 8% 0% 8% 0%;
-    }
-
-    p {
-      width: 80%;
-      margin: 0 auto;
+  #p-1 {
+    img {
+      margin-top: 15%;
     }
 
     h2 {
-      margin-left: 9%;
+      width: 100%;
+    }
+  }
+
+  #cta-right {
+    input {
+      width: 175px!important;
     }
   }
 }
 
 /* Computer / Desktop / iPad Landscape / Widescreen */
-@media only screen and (min-width: 1024px) and (max-width: 5000px) {
+@media only screen and (min-width: 1023px) and (max-width: 1920px) {
+  #mobile-only {
+    display: none!important;
+  }
+}
+
+/* Superwide screen */
+@media only screen and (min-width: 1919px) and (max-width: 5000px) {
   #mobile-only {
     display: none!important;
   }

@@ -1,24 +1,32 @@
 <div class='ui container'>
   <section id='landing'>
-    <%= image_tag('homepage.svg', class: 'ui right floated large image')%>
-    <h1 class='ui left aligned header'>
-      Collaboration,<br> done effortlessly.
-       <div class="sub header">
-         Seam is a collaborative space that promotes synergetic learning and teamwork experiences by consolidating documents, spreadsheet, PowerPoint, task reminder, and real-time communication, all in one platform.
-       </div>
-    </h1>
-    <div class="ui left aligned container" id='signup'>
-      <button class="ui button" id='cta-btn'>
-        Create Free Account
-      </button><br>
-      <div id='no-credit'>No credit card required</div>
+    <div class='ui equal width stackable grid'>
+      <div class='row'>
+        <div class='column'>
+          <h1 class='ui left aligned header'>
+            Collaboration done<br>effortlessly.
+             <div class="sub header">
+               Seam is a collaborative space that promotes synergetic learning and teamwork experiences by consolidating documents, spreadsheet, PowerPoint, task reminder, and real-time communication, all in one platform.
+             </div>
+          </h1>
+          <div class="ui left aligned container" id='signup'>
+            <button class="ui button" id='cta-btn'>
+              Create Free Account
+            </button><br>
+            <div id='no-credit'>No credit card required</div>
+          </div>
+        </div>
+        <div class='column'>
+          <%= image_tag('collaborate.svg', class: 'ui right floated large image')%>
+        </div>
+      </div>
     </div>
   </section>
 </div>
 <section id='intro-1'>
   <div class='ui stackable two column grid' id='block'>
     <div class='nine wide column'>
-      <div class='ui center aligned container'>
+      <div class='ui container'>
         <%= image_tag('Google-Chrome-Flat-Browser.png', class: 'ui left floated image') %>
       </div>
     </div>
@@ -27,20 +35,20 @@
         <h2 class='ui header'>Meet Seam</h2>
         <div class="ui one column stackable grid">
           <div class="column">
-            <%= image_tag('doc.svg', class: 'ui tiny image') %>
-            <p>Bring your documents to life by editing together in real-time</p>
+            <%= image_tag('doc.png', class: 'ui tiny image') %>
+            <p>Bring your documents to life by<br>editing together in real-time</p>
           </div>
           <div class="column">
-            <%= image_tag('comm.svg', class: 'ui tiny image') %>
-            <p>Send messages directly to a team member or to a focused channel</p>
+            <%= image_tag('game.png', class: 'ui tiny image') %>
+            <p>Engage and motivate team<br>members by rewarding actions</p>
           </div>
           <div class="column">
-            <%= image_tag('track.svg', class: 'ui tiny image') %>
-            <p>Track all open items, tasks in progress, and recently completed projects</p>
+            <%= image_tag('track.png', class: 'ui tiny image') %>
+            <p>Track all open items, tasks in progress,<br>and recently completed projects</p>
           </div>
           <div class="column">
-            <%= image_tag('game.svg', class: 'ui tiny image') %>
-            <p>Engage and motivate team members by rewarding actions</p>
+            <%= image_tag('comm.png', class: 'ui tiny image') %>
+            <p>Send messages directly to a team<br>member or to a focused channel</p>
           </div>
           <%= link_to '/features' do %>
             <button class="ui large button">

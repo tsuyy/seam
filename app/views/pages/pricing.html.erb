@@ -1,89 +1,116 @@
 <div class='ui container'>
   <section id='p-1'>
-    <div class='ui text container'>
-      <h1 class='ui center aligned header'>
-        Upgrade to Business for admin features.
-        Simple pricing, pay annually or monthly.
-      </h1>
+    <div class='ui equal width stackable grid'>
+      <div class='row'>
+        <div class='column'>
+          <h2 class='ui left aligned header'>
+            Pricing can’t get simpler than this
+             <div class="sub header">
+               Seam offers variety of plans for you to choose from. From free trial to special plan.
+             </div>
+          </h2>
+        </div>
+        <div class='column'>
+          <%= image_tag('pricing.svg', class: 'ui huge image')%>
+        </div>
+      </div>
     </div>
     <div class="ui stackable cards">
       <div class="ui card">
         <div class="center aligned content" id='free-trial'>
           <div class="header">Free Trial</div>
         </div>
-        <div class="center aligned content">
-          <br><p>Try free for 30 days</p><br>
+        <div class="center aligned content" id='gray-bg'>
+          <p>Complete documentation</p>
+          <div class="ui divider"></div>
+          <p>Working materials in PSD and<br>Sketch format</p>
         </div>
-        <div class="extra center aligned content">
-          <button class="ui button" id='ft-btn'>Start Free Trial</button>
+        <div class="extra center aligned content" id='gray-bg'>
+          <button class="ui button" id='ft-btn'>ADD TO CART</button>
         </div>
       </div>
       <div class="ui card">
         <div class="center aligned content" id='awesome-plan'>
-          <div class="header">Awesome Plan</div>
+          <div class="header"><span>$7.99</span><br><br>Awesome Plan</div>
         </div>
-        <div class="center aligned content">
-          <p>$7.99 per active user, per month billed annually</p>
-          <p>$8.99 billed monthly</p>
+        <div class="center aligned content" id='gray-bg'>
+          <p>Complete documentation</p>
+          <div class="ui divider"></div>
+          <p>Working materials in PSD,<br>Sketch and EPS format</p>
+          <div class="ui divider"></div>
+          <p>6 months access to the library</p>
         </div>
-        <div class="extra center aligned content">
-          <button class="ui button" id='ap-btn'>Start Free Trial</button>
+        <div class="extra center aligned content" id='gray-bg'>
+          <button class="ui button" id='ap-btn'>ADD TO CART</button>
         </div>
       </div>
       <div class="ui card">
         <div class="center aligned content" id='special-plan'>
-          <div class="header">Special Plan</div>
+          <div class="header">
+            <span>Special Plan</span><br><br>For teams with more than 50 Seam users
+          </div>
         </div>
-        <div class="center aligned content">
-          <br><p>For teams with more than 50 Seam users</p><br>
+        <div class="center aligned content" id='gray-bg'>
+          <p>Complete documentation</p>
+          <div class="ui divider"></div>
+          <p>Working materials in PSD,<br>Sketch and EPS format</p>
+          <div class="ui divider"></div>
+          <p>1 year access to the library</p>
+          <div class="ui divider"></div>
+          <p>2GB cloud storage</p>
+          <div class="ui divider"></div>
+          <p>Contact us and let’s talk things through!</p>
         </div>
-        <div class="extra center aligned content">
+        <div class="extra center aligned content" id='gray-bg'>
           <button class="ui button" id='sp-btn'>Let's Chat</button>
         </div>
       </div>
     </div>
   </section>
   <section id='p-2'>
-    <div class='ui stackable grid'>
-      <div class='ui text container'>
-        <div class="ui items">
-          <div class="item">
-            <div class="image">
-              <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif', class: 'ui image')%>
+    <div class='ui two column stackable grid container'>
+      <div class='row'>
+        <div class='column'>
+          <h3 class="ui header">
+            Can I try Seam for free?
+            <div class="sub header">You bet! We have a free 30 day trial,
+              and you don’t need to provide a credit card when signing up.
             </div>
-            <div class="content">
-              <a class="header">Header</a>
-              <div class="meta">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
-              </div>
-            </div>
-          </div>
+          </h3>
         </div>
-        <div class="ui items">
-          <div class="item">
-            <div class="image">
-              <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif', class: 'ui image')%>
+        <div class='column'>
+          <h3 class="ui header">
+            Do you charge extra for anything?
+            <div class="sub header">Absolutely not! With Seam there are no setup fees,
+              cancellation fees, nor mystifying hidden fees.
             </div>
-            <div class="content">
-              <a class="header">Header</a>
-              <div class="meta">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
-              </div>
-            </div>
-          </div>
+          </h3>
         </div>
-        <div class="ui items">
-          <div class="item">
-            <div class="image">
-              <%= image_tag('https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif', class: 'ui image')%>
+        <div class='column'>
+          <h3 class="ui header">
+            Can I cancel at any time?
+            <div class="sub header">Yes, but we hate to see you go! You can cancel at any time,
+              we charge you annually or monthly. Get in touch with us and we’ll
+              cancel your subscription at the beginning of the next billing period.
             </div>
-            <div class="content">
-              <a class="header">Header</a>
-              <div class="meta">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
-              </div>
+          </h3>
+        </div>
+        <div class='column'>
+          <h3 class="ui header">
+            Can I pay a year in advance?
+            <div class="sub header">Yes! In fact, each user will receive 12% off
+              the monthly subscription rate when you commit to a year of service with a valid credit card.
+              Just choose annual billing as an option after selecting your plan above.
             </div>
-          </div>
+          </h3>
+        </div>
+        <div class='column'>
+          <h3 class="ui header">
+            Any other questions?
+            <div class="sub header">Let us help! We’re here to answer any and all questions.
+              Get in touch with us via email at support@seam.fun.
+            </div>
+          </h3>
         </div>
       </div>
     </div>
