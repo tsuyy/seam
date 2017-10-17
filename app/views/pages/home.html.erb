@@ -6,18 +6,19 @@
           <h1 class='ui left aligned header'>
             Collaboration done<br>effortlessly.
              <div class="sub header">
-               Seam is a collaborative space that promotes synergetic learning and teamwork experiences by consolidating documents, spreadsheet, PowerPoint, task reminder, and real-time communication, all in one platform.
+               Seam is a platform that helps teams collaborate by unifying document editing,
+               messaging and task management, under a single roof.
              </div>
           </h1>
           <div class="ui left aligned container" id='signup'>
-            <button class="ui button" id='cta-btn'>
+            <button class="ui button" id="small-cta">
               Create Free Account
             </button><br>
             <div id='no-credit'>No credit card required</div>
           </div>
         </div>
         <div class='column'>
-          <%= image_tag('collaborate.svg', class: 'ui right floated large image')%>
+          <%= image_tag('sign-in.png', class: 'ui right floated large image')%>
         </div>
       </div>
     </div>
@@ -51,7 +52,7 @@
             <p>Send messages directly to a team<br>member or to a focused channel</p>
           </div>
           <%= link_to '/features' do %>
-            <button class="ui large button">
+            <button class="ui large button" id='small-cta'>
               Find Out More
             </button>
           <% end %>
