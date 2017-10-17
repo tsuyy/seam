@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
 
 // Set variables
 $primary-blue: #4da1ff;
@@ -10,6 +10,7 @@ $primary-gray: #FBFBFB;
 
 html {
   font-family: 'Roboto', sans-serif!important;
+  color: #333333;
 }
 
 section {
@@ -26,13 +27,14 @@ section {
     margin: 30% 0 3% 0;
     font-size: 40px!important;
     width: 98%;
+    font-family: 'Merriweather', serif;
 
     .sub {
       font-size: 17px!important;
       line-height: 28px;
       margin-top: 30px;
-      color: #333333;
       width: 106%;
+      font-family: 'Roboto', sans-serif!important;
     }
   }
 
@@ -60,10 +62,10 @@ section {
   }
 
   .header {
-    color: #000;
     line-height: 30px;
     padding: 5% 0 5% 15%;
     font-size: 35px;
+    font-family: 'Merriweather', serif;
   }
 
   .tiny {
@@ -79,7 +81,6 @@ section {
   p {
     font-size: 16px;
     line-height: 26px;
-    color: #000;
     margin-bottom: 2%;
   }
 
@@ -96,13 +97,12 @@ section {
 
   h2 {
     font-size: 40px;
-    color: #333333;
+    font-family: 'Merriweather', serif;
   }
 
   p {
     font-size: 17px;
     line-height: 28px;
-    color: #333333;
     padding-top: 3%;
     width: 500px;
   }
@@ -137,12 +137,13 @@ section {
     font-size: 40px!important;
     margin-top: 13%;
     width: 70%;
+    font-family: 'Merriweather', serif;
 
     .sub {
       font-size: 17px!important;
       line-height: 28px;
       margin-top: 30px;
-      color: #333333;
+      font-family: 'Roboto', sans-serif;
     }
   }
 
@@ -244,6 +245,7 @@ section {
   .left {
     font-size: 40px!important;
     margin-top: 3%;
+    font-family: 'Merriweather', serif;
   }
 }
 
@@ -251,6 +253,7 @@ section {
   .left {
     margin: 30% 0 3% 0;
     font-size: 40px!important;
+    font-family: 'Merriweather', serif;
   }
 
   img {
@@ -261,13 +264,13 @@ section {
   p {
     font-size: 17px;
     line-height: 28px;
-    color: #333333;
     margin-bottom: 15%;
   }
 
   #teams {
     font-size: 40px!important;
     margin: -5% 0 -10% 0;
+    font-family: 'Merriweather', serif;
   }
 
   .team-intro {
