@@ -27,6 +27,11 @@ $primary-gray: #FBFBFB;
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Roboto', sans-serif!important;
+  color: #333333!important;
+}
+
 // NAV
 .logo {
   width: 112px;
@@ -35,11 +40,11 @@ $primary-gray: #FBFBFB;
 
 .right {
   a.ui.item {
-    color: #000;
+    color: #333;
   }
   a.ui.item:hover {
     color: $primary-blue!important;
-    background-color: #2890dd;
+    background-color: $primary-gray;
     border-radius: 3px;
   }
 }
