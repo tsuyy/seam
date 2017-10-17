@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require semantic-ui
+//= require jquery.slick
 //= require_tree .
 
 $(document).on('turbolinks:load', function() {

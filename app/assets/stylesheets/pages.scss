@@ -13,7 +13,7 @@ html {
 }
 
 section {
-  min-height: 400px;
+  min-height: 350px;
 }
 
 #landing, #p-1 {
@@ -37,13 +37,7 @@ section {
   }
 
   .image {
-    margin-top: 21.5%;
-    width: 74.4%;
-  }
-
-  button {
-    height: 33px;
-    font-size: 15px;
+    margin-top: 30%;
   }
 }
 
@@ -90,29 +84,10 @@ section {
   }
 
   button {
-    background-color: $primary-blue;
-    color: #FFF;
-    border: solid 2px $primary-blue;
-    border-radius: 3px;
     width: 160px;
-    font-size: 15px;
-    height: 33px;
     margin-top: 20%;
     margin-left: 72%;
     line-height: 7px;
-
-    &:hover {
-      background-color: #2890dd;
-      -webkit-box-shadow:inset 0px 0px 0px 1px #2890dd;
-      -moz-box-shadow:inset 0px 0px 0px 1px #2890dd;
-      box-shadow:inset 0px 0px 0px 1px #2890dd;
-    }
-
-    &:active {
-      -webkit-box-shadow:inset 0px 0px 0px 1px #FFF;
-      -moz-box-shadow:inset 0px 0px 0px 1px #FFF;
-      box-shadow:inset 0px 0px 0px 1px #FFF;
-    }
   }
 }
 
@@ -132,17 +107,13 @@ section {
     width: 500px;
   }
 
-  #collab {
-    width: 408.81px;
-  }
-
   #padded {
     padding-top: 2%;
   }
 }
 
 #f-1 {
-  margin: 5% 0 2% 0;
+  margin: 6% 0 0 0;
 }
 
 #gray-bg {
@@ -182,7 +153,7 @@ section {
     .header {
       color: #FFF;
       font-size: 45px;
-      margin-top: 65px;
+      margin-top: 15px;
     }
   }
 
@@ -203,7 +174,7 @@ section {
 
     .header {
       color: #FFF;
-      margin-top: 61px;
+      margin-top: 10px;
 
       span {
         font-size: 45px;
@@ -222,30 +193,30 @@ section {
     }
   }
 
-  #special-plan {
-    background-color: #7ED321;
-    height: 210px;
-
-    .header {
-      color: #FFF;
-      margin-top: 45px;
-
-      span {
-        font-size: 45px;
-      }
-    }
-  }
-
-  #sp-btn {
-    background-color: #7ED321;
-    color: #FFF;
-    font-size: 15px;
-    height: 40px;
-
-    &:hover {
-      background-color: #91d646;
-    }
-  }
+  // #special-plan {
+  //   background-color: #7ED321;
+  //   height: 210px;
+  //
+  //   .header {
+  //     color: #FFF;
+  //     margin-top: 45px;
+  //
+  //     span {
+  //       font-size: 45px;
+  //     }
+  //   }
+  // }
+  //
+  // #sp-btn {
+  //   background-color: #7ED321;
+  //   color: #FFF;
+  //   font-size: 15px;
+  //   height: 40px;
+  //
+  //   &:hover {
+  //     background-color: #91d646;
+  //   }
+  // }
 }
 
 #p-2 {
@@ -310,7 +281,7 @@ section {
   border: solid 1px $primary-blue;
   border-radius: 3px;
   font-size: 15px;
-  height: 33px;
+  height: 40px;
   line-height: 7px;
 
   &:hover {
@@ -318,5 +289,11 @@ section {
     -webkit-box-shadow:inset 0px 0px 0px 1px #2890dd;
     -moz-box-shadow:inset 0px 0px 0px 1px #2890dd;
     box-shadow:inset 0px 0px 0px 1px #2890dd;
+  }
+
+  &:active {
+    -webkit-box-shadow:inset 0px 0px 0px 1px #FFF;
+    -moz-box-shadow:inset 0px 0px 0px 1px #FFF;
+    box-shadow:inset 0px 0px 0px 1px #FFF;
   }
 }
