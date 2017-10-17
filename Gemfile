@@ -36,6 +36,8 @@ gem 'turbolinks', '~> 5'
 gem 'semantic-ui-sass'
 # High Voltage
 gem 'high_voltage'
+# Slick Carousel
+gem "jquery-slick-rails"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
