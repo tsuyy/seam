@@ -18,7 +18,7 @@
 @import "mq.scss";
 
 // Set variables
-$primary-blue: #4A90E2;
+$primary-blue: #4da1ff;
 $primary-gray: #FBFBFB;
 
 // NAV
@@ -33,7 +33,7 @@ $primary-gray: #FBFBFB;
   }
   a.ui.item:hover {
     color: $primary-blue!important;
-    background-color: #e5e5e5;
+    background-color: #2890dd;
     border-radius: 3px;
   }
 }
@@ -54,12 +54,12 @@ $primary-gray: #FBFBFB;
   border: solid 1px $primary-blue;
   border-radius: 3px;
   font-size: 14px;
-  height: 30px;
+  height: 33px;
   line-height: 1px;
 
   &:hover {
-    background-color: #3569a7;
-    border: solid 1px #3569a7;
+    background-color: #2890dd;
+    border: solid 1px #2890dd;
   }
 }
 
