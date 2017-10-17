@@ -110,6 +110,10 @@ section {
   #padded {
     padding-top: 2%;
   }
+
+  #floated {
+    float: right;
+  }
 }
 
 #f-1 {
@@ -227,7 +231,7 @@ section {
   background-color: $primary-gray;
 
   h3 {
-    padding: 5%;
+    padding: 4% 0 5% 0;
   }
 
   .sub {
@@ -235,6 +239,11 @@ section {
     width: 80%;
     font-size: 17px;
     line-height: 24px;
+  }
+
+  .left {
+    font-size: 40px!important;
+    margin-top: 3%;
   }
 }
 
