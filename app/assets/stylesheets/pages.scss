@@ -5,118 +5,131 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
 
 // Set variables
-$primary-blue: #4da1ff;
-$primary-gray: #FBFBFB;
+$blue: #4A90E2;
+$pink: #E95F70;
+$green: #7ED321;
+$gray: #FBFBFB;
+$header-font: 'Merriweather', serif;
+$body-font: 'Roboto', sans-serif;
+$font-color: #333;
 
 section {
-  min-height: 350px;
+  min-height: 450px;
 }
 
-#landing, #p-1 {
-  height: 110%;
-  margin-bottom: 5%;
+.header {
+  font-size: 43px!important;
+  font-family: $header-font!important;
+  font-weight: 900!important;
+}
+
+.body-styles {
+  font-size: 20px;
+  line-height: 31px;
+  font-family: $body-font;
+  color: $font-color;
 }
 
 #landing {
+  position: relative;
+  height: 110%;
+
   h1 {
-    margin: 30% 0 3% 0;
-    font-size: 40px!important;
-    width: 98%;
-    font-family: 'Merriweather', serif;
-
-    .sub {
-      font-size: 17px!important;
-      line-height: 28px;
-      margin-top: 30px;
-      width: 106%;
-      font-family: 'Roboto', sans-serif!important;
-    }
-  }
-
-  .image {
-    margin-top: 30%;
-  }
-}
-
-#no-credit {
-  margin-top: 20px;
-}
-
-#intro-1 {
-  background-color: $primary-gray;
-  height: 685px;
-  margin-bottom: 5%;
-
-  #block {
-    padding-top: 2.5%;
-
-    .left {
-      box-shadow: 5px 10px 20px rgba(10, 5, 2, 0.09);
-      margin-left: 5%;
-    }
-  }
-
-  .header {
-    line-height: 30px;
-    padding: 5% 0 5% 15%;
-    font-size: 35px;
-    font-family: 'Merriweather', serif;
-  }
-
-  .tiny {
-    margin: 0% 4% 0 15%;
-    float: left !important;
-    width: 50px !important;
-  }
-
-  .text {
-    max-width: 800px!important;
+    margin: 10% 0 3% 0;
   }
 
   p {
-    font-size: 16px;
-    line-height: 26px;
-    margin-bottom: 2%;
+    margin-top: 25px;
+    text-align: center;
   }
 
   button {
-    width: 160px;
-    margin-top: 20%;
-    margin-left: 72%;
-    line-height: 7px;
+    margin: 20px 0 10px 0;
   }
 }
 
-.features {
-  height: 100%!important;
+// Search + Drive
+#search {
+  position: relative;
+  z-index: 2;
+  margin-top: -17%;
+  background-color: white;
+  box-shadow: 0 2px 25px 0 rgba(0,0,0,0.15);
+  height: 743px;
 
-  h2 {
-    font-size: 40px;
-    font-family: 'Merriweather', serif;
+  #pink-shape {
+    position: absolute;
   }
 
-  p {
-    font-size: 17px;
-    line-height: 28px;
-    padding-top: 3%;
-    width: 500px;
+  #s-screenshot {
+    position: relative;
+    height: 100%;
+    right: 25px;
+    top: 15px;
   }
 
-  #padded {
-    padding-top: 2%;
-  }
-
-  #floated {
-    float: right;
+  button {
+    margin: 45px 0 0 0;
   }
 }
 
-#f-1 {
-  margin: 6% 0 0 0;
+#drive {
+  position: relative;
+  background-color: white;
+  box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.15);
+  bottom: 125px;
+  height: 774px;
+
+  #green-shape {
+    position: relative;
+    right: 130px;
+    bottom: 125px;
+  }
+
+  #d-screenshot {
+    position: absolute;
+    top: 60px;
+  }
+
+  button {
+    margin: 45px 0 0 0;
+  }
 }
 
-#gray-bg {
-  background-color: $primary-gray;
+.s-content, .d-content {
+  top: 245px;
+  position: relative;
+  left: 90px;
+}
+
+// Messenger + To do list
+#messenger, #to-do {
+  position: relative;
+
+  button {
+    margin: 45px 0 0 0;
+  }
+}
+
+#m-screenshot, #t-screenshot {
+  height: 100%;
+  position: relative;
+  left: 375px;
+  bottom: 210px;
+}
+
+.m-content, .t-content {
+  position: relative;
+  top: 250px;
+  right: 100px;
+}
+
+#to-do {
+  bottom: 185px;
+
+  .t-content {
+    top: 305px;
+  }
 }
 
 #p-1 {
@@ -196,36 +209,9 @@ section {
       background-color: #f7a72f;
     }
   }
-
-  // #special-plan {
-  //   background-color: #7ED321;
-  //   height: 210px;
-  //
-  //   .header {
-  //     color: #FFF;
-  //     margin-top: 45px;
-  //
-  //     span {
-  //       font-size: 45px;
-  //     }
-  //   }
-  // }
-  //
-  // #sp-btn {
-  //   background-color: #7ED321;
-  //   color: #FFF;
-  //   font-size: 15px;
-  //   height: 40px;
-  //
-  //   &:hover {
-  //     background-color: #91d646;
-  //   }
-  // }
 }
 
 #p-2 {
-  background-color: $primary-gray;
-
   h3 {
     padding: 4% 0 5% 0;
   }
@@ -270,52 +256,5 @@ section {
 
   .team-intro {
     margin: 10% 0 10% 0;
-  }
-}
-
-#cta-block {
-  margin-top: 4%;
-  margin-bottom: -3%;
-}
-
-#cta-right {
-  padding-bottom: 7%;
-
-  input {
-    width: 370px;
-  }
-}
-
-#cta-left {
-  #cta-h {
-    font-size: 25px;
-  }
-
-  #cta-sh {
-    font-size: 14px;
-    line-height: 30px;
-  }
-}
-
-#cta-btn {
-  background-color: $primary-blue;
-  color: #FFF;
-  border: solid 1px $primary-blue;
-  border-radius: 3px;
-  font-size: 15px;
-  height: 40px;
-  line-height: 7px;
-
-  &:hover {
-    background-color: #2890dd;
-    -webkit-box-shadow:inset 0px 0px 0px 1px #2890dd;
-    -moz-box-shadow:inset 0px 0px 0px 1px #2890dd;
-    box-shadow:inset 0px 0px 0px 1px #2890dd;
-  }
-
-  &:active {
-    -webkit-box-shadow:inset 0px 0px 0px 1px #FFF;
-    -moz-box-shadow:inset 0px 0px 0px 1px #FFF;
-    box-shadow:inset 0px 0px 0px 1px #FFF;
   }
 }

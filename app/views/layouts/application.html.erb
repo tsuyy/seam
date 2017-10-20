@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= csrf_meta_tags %>
     <%= favicon_link_tag 'favicon.ico' %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -14,9 +13,6 @@
     <div class='ui sidebar right vertical menu'>
       <%= link_to '/', {class: 'ui item'} do %>
         Home
-      <% end %>
-      <%= link_to '/features', {class: 'ui item'} do %>
-        Features
       <% end %>
       <%= link_to '/pricing', {class: 'ui item'} do %>
         Pricing
@@ -28,7 +24,6 @@
     <div class='pusher'>
       <%= render 'layouts/nav' %>
       <%= yield %>
-      <div class='ui divider'></div>
       <%= render 'layouts/footer' %>
     </div>
   </body>

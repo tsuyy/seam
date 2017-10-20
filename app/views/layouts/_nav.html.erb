@@ -1,15 +1,12 @@
 <div class="ui secondary top fixed menu" id='cast'>
   <div class='item'>
     <%= link_to '/' do %>
-      <%= image_tag('Final-Logo.svg', class: 'logo') %>
+      <%= image_tag('seam.png', class: 'logo') %>
     <% end %>
   </div>
   <div class="right menu" id='computer-only'>
     <%= link_to '/', {class: 'ui item'} do %>
       Home
-    <% end %>
-    <%= link_to '/features', {class: 'ui item'} do %>
-      Features
     <% end %>
     <%= link_to '/pricing', {class: 'ui item'} do %>
       Pricing
@@ -18,7 +15,7 @@
       About Us
     <% end %>
     <div class="item">
-      <button class="ui button" id="small-cta">Sign In</button>
+      <button class="ui button" id="cta-btn">Sign In</button>
     </div>
   </div>
   <div class='right menu' id='mobile-only'>
