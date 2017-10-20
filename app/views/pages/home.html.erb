@@ -1,64 +1,112 @@
 <div class='ui container'>
   <section id='landing'>
-    <div class='ui equal width stackable grid'>
+    <div class='ui stackable grid'>
       <div class='row'>
         <div class='column'>
-          <h1 class='ui left aligned header'>
-            Collaboration<br>done effortlessly.
-             <div class="sub header">
-               Seam is a platform that helps teams collaborate by unifying document editing,
-               messaging and task management, under a single roof.
-             </div>
+          <h1 class='ui center aligned header'>
+            Collaboration done effortlessly
           </h1>
-          <div class="ui left aligned container" id='signup'>
-            <button class="ui button" id="small-cta">
+          <p class="body-styles">
+            Seam is a platform that helps teams collaborate by unifying document<br>
+            editing, messaging and task management, under a single roof.
+          </p>
+          <div class="ui center aligned container" id='signup'>
+            <button class="ui button" id="cta-btn">
               Create Free Account
             </button><br>
-            <div id='no-credit'>No credit card required</div>
           </div>
-        </div>
-        <div class='column'>
-          <%= image_tag('sign-in.png', class: 'ui right floated large image')%>
+          <%= image_tag('dashboard.png', class: 'ui center aligned image')%>
         </div>
       </div>
     </div>
   </section>
 </div>
-<section id='intro-1'>
-  <div class='ui stackable two column grid' id='block'>
-    <div class='nine wide column'>
-      <div class='ui container'>
-        <%= image_tag('Google-Chrome-Flat-Browser.png', class: 'ui left floated image') %>
-      </div>
-    </div>
-    <div class='seven wide column'>
-      <div class='ui text container'>
-        <h2 class='ui header'>Meet Seam</h2>
-        <div class="ui one column stackable grid">
-          <div class="column">
-            <%= image_tag('doc.png', class: 'ui tiny image') %>
-            <p>Bring your documents to life by<br>editing together in real-time</p>
-          </div>
-          <div class="column">
-            <%= image_tag('game.png', class: 'ui tiny image') %>
-            <p>Engage and motivate team<br>members by rewarding actions</p>
-          </div>
-          <div class="column">
-            <%= image_tag('track.png', class: 'ui tiny image') %>
-            <p>Track all open items, tasks in progress,<br>and recently completed projects</p>
-          </div>
-          <div class="column">
-            <%= image_tag('comm.png', class: 'ui tiny image') %>
-            <p>Send messages directly to a team<br>member or to a focused channel</p>
-          </div>
-          <%= link_to '/features' do %>
-            <button class="ui large button" id='small-cta'>
-              Find Out More
-            </button>
-          <% end %>
+<section id='search'>
+  <div class='ui stackable grid'>
+    <%= image_tag('pink-shape.png', class:'ui left floated massive image', id: 'pink-shape') %>
+    <%= image_tag('search.png', class:'ui massive image', id: 's-screenshot') %>
+    <div class='s-content'>
+      <h1 class="ui header">
+        <%= image_tag('search-icon.png', class:'ui huge image') %>
+        <div class="content">
+          Search
         </div>
-      </div>
+      </h1>
+      <p class='body-styles'>
+        All inclusive search field. Search from<br>
+        task, files, and to messages. One stop<br>
+        to find everything you need.
+      </p>
+      <button class="ui button" id="cta-btn">
+        Create Free Account
+      </button>
     </div>
   </div>
 </section>
+<div class='ui container'>
+  <section id='messenger'>
+    <div class='m-content'>
+      <h1 class="ui header">
+        <%= image_tag('messenger-icon.png', class:'ui huge image') %>
+        <div class="content">
+          Messenger
+        </div>
+      </h1>
+      <p class='body-styles'>
+        Seam integrate chat into collarborative doc<br>
+        keeping all components cohesive. Keeps<br>
+        business requirements, project notes,<br>
+        and creative copy where they should be.
+      </p>
+      <button class="ui button" id="cta-btn">
+        Create Free Account
+      </button>
+    </div>
+    <%= image_tag('messenger.png', class:'ui massive image', id: 'm-screenshot') %>
+  </section>
+</div>
+<section id='drive'>
+  <div class='ui stackable grid'>
+    <%= image_tag('green-shape.png', class:'ui left floated massive image', id: 'green-shape') %>
+    <%= image_tag('drive.png', class:'ui massive image', id: 'd-screenshot') %>
+    <div class='d-content'>
+      <h1 class="ui header">
+        <%= image_tag('drive-icon.png', class:'ui huge image') %>
+        <div class="content">
+          Drive
+        </div>
+      </h1>
+      <p class='body-styles'>
+        Convenient file sharing. Upload, share,<br>
+        and discuss to get work done faster<br>
+        and more organized.
+      </p>
+      <button class="ui button" id="cta-btn">
+        Create Free Account
+      </button>
+    </div>
+  </div>
+</section>
+<div class='ui container'>
+  <section id='to-do'>
+    <div class='t-content'>
+      <h1 class="ui header">
+        <%= image_tag('to-do-icon.png', class:'ui huge image') %>
+        <div class="content">
+          To do list
+        </div>
+      </h1>
+      <p class='body-styles'>
+        Tasks allow you to break a large idea<br>
+        into actionable subtasks which are then<br>
+        assigned to team members individually.<br>
+        No more guessing who's doing what.
+      </p>
+      <button class="ui button" id="cta-btn">
+        Create Free Account
+      </button>
+    </div>
+    <%= image_tag('to-do.png', class:'ui massive image', id: 't-screenshot') %>
+  </section>
+</div>
 <%= render 'pages/cta' %>

@@ -1,75 +1,26 @@
 <div class='footer'>
-  <div class='ui container'>
-    <div class="ui two column stackable grid">
-      <div class="column">
-        <%= image_tag('logo.png', class: 'mini ui image') %>
+  <div class='ui stackable grid container'>
+    <div class='two column row'>
+      <div class='left floated column'>
         <div class='ui text container' id='rights'>
-          Copyright © Seam<br>
-          Collaboration, LLC 2017<br>
-          All Rights Reserved
+          <%= image_tag('logo.png', class: 'ui left floated tiny image') %>
+          <p>
+            Copyright © Seam<br>
+            Collaboration, LLC 2017<br>
+            All Rights Reserved
+          </p>
         </div>
       </div>
-      <div class="column">
-        <div class='ui three column grid'>
-          <div class="column">
-            <h4 id='red'>SEAM</h4>
-            <div class="ui link list">
-              <%= link_to '/features', {class: 'item'} do %>
-                Features
-              <% end %>
-              <%= link_to '/pricing', {class: 'item'} do %>
-                Pricing
-              <% end %>
-              <%= link_to '/about-us', {class: 'item'} do %>
-                About Us
-              <% end %>
-            </div>
-          </div>
-          <div class="column">
-            <h4 id='blue'>LEARN MORE</h4>
-            <div class='ui link list'>
-              <a class='item'>Lorem</a>
-              <a class='item'>Lorem</a>
-            </div>
-          </div>
-          <div class="column">
-            <h4 id='green'>SUPPORT</h4>
-            <div class='ui link list'>
-              <a class='item'>Lorem</a>
-              <a class='item'>Lorem</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='sub-footer'>
-    <div class='ui stackable grid container'>
-      <div class='two column row'>
-        <div class='left floated column' id='privacy'>
-          <%= link_to 'https://termsfeed.com/terms-conditions/d5bd92ccbed62d12d4ab89abebf18ba7' do %>
-            Terms & Conditions
-          <% end %>
-          <%= link_to 'https://termsfeed.com/privacy-policy/e3b1d04bda51b008e4932188dd3290f3' do %>
-            Privacy Policy
-          <% end %>
-          <%= link_to '/' do %>
-            Contact Us
-          <% end %>
-        </div>
-        <div class='right floated right aligned column'>
-          <div id='social-icons'>
-            <button class="ui circular facebook icon button">
-              <i class="facebook icon"></i>
-            </button>
-            <button class="ui circular linkedin icon button">
-              <i class="linkedin icon"></i>
-            </button>
-            <button class="ui circular google plus icon button">
-              <i class="google plus icon"></i>
-            </button>
-          </div>
-        </div>
+      <div class='right floated column' id='privacy'>
+        <%= link_to 'https://termsfeed.com/terms-conditions/d5bd92ccbed62d12d4ab89abebf18ba7' do %>
+          Terms & Conditions
+        <% end %>
+        <%= link_to 'https://termsfeed.com/privacy-policy/e3b1d04bda51b008e4932188dd3290f3' do %>
+          Privacy Policy
+        <% end %>
+        <%= link_to '/' do %>
+          Contact Us
+        <% end %>
       </div>
     </div>
   </div>
