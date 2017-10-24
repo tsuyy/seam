@@ -124,6 +124,10 @@ h1.header {
   right: 100px;
 }
 
+#shrink-me {
+  height: 650px
+}
+
 #to-do {
   bottom: 185px;
 
@@ -133,100 +137,56 @@ h1.header {
 }
 
 #p-1 {
-  .card {
-    margin: 0 auto;
+  h1 {
+    margin: 10% 0 2% 0;
   }
 
-  .cards {
-    margin: 5% 0 5% 0;
+  p {
+    text-align: center;
   }
 
-  h2 {
-    font-size: 40px!important;
-    margin-top: 13%;
-    width: 70%;
-    font-family: 'Merriweather', serif;
-
-    .sub {
-      font-size: 17px!important;
-      line-height: 28px;
-      margin-top: 30px;
-      font-family: 'Roboto', sans-serif;
-    }
+  .header {
+    font-family: $header-font;
+    font-size: 23px;
   }
 
-  img {
-    margin: 7% 0 0 0;
+  .segments {
+    width: 80%;
+  }
+
+  .list {
+    font-family: $body-font;
   }
 
   .row {
-    margin: 8% 0 8% 0;
+    margin: 5% 0 5% 0;
   }
 
-  #free-trial {
-    background-color: #4A90E2;
-    height: 63px;
-
-    .header {
-      color: #FFF;
-      font-size: 45px;
-      margin-top: 15px;
-    }
+  .item {
+    padding: 10px 0 10px 0;
   }
 
-  #ft-btn {
-    background-color: #4A90E2;
-    color: #FFF;
-    font-size: 15px;
-    height: 40px;
-
-    &:hover {
-      background-color: #5d9eea;
-    }
+  #top {
+    background-color: $gray;
   }
 
-  #awesome-plan {
-    background-color: #F7990D;
-    height: 112px;
-
-    .header {
-      color: #FFF;
-      margin-top: 10px;
-
-      span {
-        font-size: 45px;
-      }
-    }
-  }
-
-  #ap-btn {
-    background-color: #F7990D;
-    color: #FFF;
-    font-size: 15px;
-    height: 40px;
-
-    &:hover {
-      background-color: #f7a72f;
-    }
+  i {
+    color: $green;
   }
 }
 
 #p-2 {
-  h3 {
-    padding: 4% 0 5% 0;
+  h1 {
+    margin: 5% 0 5% 0;
   }
 
-  .sub {
-    padding-top: 3%;
-    width: 80%;
+  p {
+    padding: 15px 0 30px 0;
     font-size: 17px;
-    line-height: 24px;
-  }
-
-  .left {
-    font-size: 40px!important;
-    margin-top: 3%;
-    font-family: 'Merriweather', serif;
+    line-height: 31px;
+    width: 75%;
+    text-align: left;
+    margin: 0 auto;
   }
 }
 
