@@ -6,6 +6,14 @@
     display: none!important;
   }
 
+  h1.header {
+    font-size: 33px!important;
+  }
+
+  .body-styles {
+    font-size: 16px!important;
+  }
+
   #landing {
     h1 {
       text-align: center!important;
@@ -37,24 +45,15 @@
     height: 120px;
   }
 
-  #privacy, #social-icons {
-    text-align: center;
-    padding-right: 0%!important;
-  }
-
   #privacy a {
-    padding-right: 4%!important;
+    padding-top: 30px;
+    font-size: 13px;
+    margin: 0 22px 0 0!important;
   }
 
   .footer {
-    .mini {
-      margin-left: 8%;
-      width: 15%!important;
-    }
-
     #rights {
-      margin: -20% 0 -3% 0;
-      padding-left: 27%;
+      margin: 0 auto;
     }
   }
 
@@ -66,6 +65,10 @@
     }
   }
 
+  #cta {
+    height: 100%!important;
+  }
+
   #cta-btn {
     margin-top: 2%;
     width: 202px;
@@ -74,44 +77,39 @@
   }
 
   #p-1 {
-    h2 {
-      font-size: 38px !important;
-      margin-top: 15%;
-      text-align: center;
-      width: 100%;
-    }
-
-    .card {
-      margin-bottom: 10%;
-    }
-
-    #free-trial {
-      height: 190.75px;
-
-      .header {
-        margin-top: 53px;
-      }
-    }
-
-    #awesome-plan {
-      height: 190.75px;
+    h1 {
+      margin: 25% 0 5% 0
     }
   }
 
   #p-2 {
-    h3 {
-      text-align: center;
+    h1 {
+      margin: 10% 0 10% 0;
     }
 
-    .sub {
-      width: 100%;
+    p {
+      font-size: 16px!important;
+      width: 80%!important;
+      text-align: center!important;
     }
   }
 
-  #about-us {
+  #about {
+    h1 {
+      margin: 23% 0 3% 0;
+    }
+
+    p {
+      margin: 0 0 0 0!important;
+    }
+
     img {
-      margin-top: 30%;
-      width: 100%;
+      margin-top: 5%;
+      width: 75%;
+    }
+
+    #team-intro {
+      margin: 10% 0 0% 0;
     }
   }
 }
