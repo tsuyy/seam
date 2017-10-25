@@ -18,7 +18,7 @@
 @import "mq.scss";
 @import 'slick';
 
-// Set variables
+// Variables
 $blue: #4A90E2;
 $pink: #E95F70;
 $green: #7ED321;
@@ -46,10 +46,13 @@ html {
 .right {
   a.ui.item {
     color: $font-color;
+    line-height: 7px;
   }
+  
   a.ui.item:hover {
-    color: $blue;
+    color: $blue!important;
     background-color: $gray;
+    height: 40px;
     border-radius: 3px;
   }
 }
