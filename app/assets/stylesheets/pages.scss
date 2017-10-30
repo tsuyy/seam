@@ -30,6 +30,7 @@ h1.header {
   color: $font-color;
 }
 
+// Homepage
 #landing {
   position: relative;
   height: 110%;
@@ -136,6 +137,7 @@ h1.header {
   }
 }
 
+// Pricing
 #p-1 {
   h1 {
     margin: 10% 0 2% 0;
@@ -178,7 +180,7 @@ h1.header {
 
 #p-2 {
   margin: 0 0 5% 0;
-  
+
   h1 {
     margin: 3% 0 6% 0;
   }
@@ -193,6 +195,7 @@ h1.header {
   }
 }
 
+// About
 #about {
   h1 {
     margin: 10% 0 3% 0;
