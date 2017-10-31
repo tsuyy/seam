@@ -20,6 +20,97 @@
     }
   }
 
+  #search {
+    overflow: hidden;
+    height: 570px!important;
+
+    #pink-shape {
+      bottom: -195px;
+      transform: scale(1.6) rotate(65deg);
+    }
+
+    #s-screenshot {
+      top: 70px;
+      right: 0px!important;
+    }
+
+    .s-content {
+      top: 40px;
+      text-align: center;
+      left: 0px
+    }
+
+    button {
+      margin: 0 auto;
+    }
+  }
+
+  #messenger {
+    .m-content {
+      top: 60px;
+      right: 0px!important;
+      text-align: center;
+    }
+
+    #m-screenshot {
+      top: 100px;
+      bottom: 0px!important;
+      left: 0px!important;
+    }
+
+    button {
+      margin: 0 auto;
+    }
+  }
+
+  #drive {
+    bottom: 0px!important;
+    top: 170px;
+    height: 540px!important;
+    overflow: hidden;
+
+    #green-shape {
+      right: 80px!important;
+    }
+
+    .d-content {
+      text-align: center;
+      top: 60px;
+      left: 0px!important;
+    }
+
+    #d-screenshot {
+      top: 270px!important;
+    }
+
+    button {
+      margin: 0 auto;
+    }
+  }
+
+  #shrink-me {
+    height: 845px!important;
+  }
+
+  #to-do {
+    bottom: 0px!important;
+
+    .t-content {
+      top: 240px!important;
+      text-align: center;
+      left: 0px!important;
+    }
+
+    #t-screenshot {
+      top: 270px!important;
+      left: 0px!important;
+    }
+
+    button {
+      margin: 0 auto;
+    }
+  }
+
   .logo {
     height: 120px;
   }
