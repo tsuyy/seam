@@ -25,17 +25,17 @@
     height: 570px!important;
 
     #pink-shape {
-      bottom: -195px;
+      bottom: -260px;
       transform: scale(1.6) rotate(65deg);
     }
 
     #s-screenshot {
-      top: 70px;
+      top: 330px;
       right: 0px!important;
     }
 
     .s-content {
-      top: 40px;
+      top: -185px;
       text-align: center;
       left: 0px
     }
@@ -71,16 +71,19 @@
 
     #green-shape {
       right: 80px!important;
+      bottom: 355px;
     }
 
     .d-content {
       text-align: center;
-      top: 60px;
+      top: -165px;
       left: 0px!important;
     }
 
     #d-screenshot {
       top: 270px!important;
+      bottom: 0px!important;
+      right: 0px!important;
     }
 
     button {
