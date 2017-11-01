@@ -7,7 +7,7 @@
 // Set variables
 $blue: #4A90E2;
 $pink: #E95F70;
-$green: #7ED321;
+$green: #01f1cc;
 $gray: #FBFBFB;
 $header-font: 'Merriweather', serif;
 $body-font: 'Roboto', sans-serif;
@@ -49,7 +49,7 @@ h1.header {
   }
 }
 
-// Search + Drive
+// Search
 #search {
   position: relative;
   z-index: 2;
@@ -62,10 +62,15 @@ h1.header {
     position: absolute;
   }
 
+  .s-content {
+    left: 815px;
+    position: relative;
+    bottom: 500px;
+  }
+
   #s-screenshot {
     position: relative;
-    height: 100%;
-    right: 25px;
+    right: 180px;
     top: 15px;
   }
 
@@ -74,6 +79,7 @@ h1.header {
   }
 }
 
+// Drive
 #drive {
   position: relative;
   background-color: white;
@@ -88,8 +94,15 @@ h1.header {
   }
 
   #d-screenshot {
-    position: absolute;
-    top: 60px;
+    position: relative;
+    right: 120px;
+    bottom: 870px;
+  }
+
+  .d-content {
+    position: relative;
+    bottom: 1330px;
+    left: 835px;
   }
 
   button {
@@ -97,11 +110,6 @@ h1.header {
   }
 }
 
-.s-content, .d-content {
-  top: 245px;
-  position: relative;
-  left: 90px;
-}
 
 // Messenger + To do list
 #messenger, #to-do {
@@ -112,17 +120,24 @@ h1.header {
   }
 }
 
-#m-screenshot, #t-screenshot {
+#m-screenshot {
   height: 100%;
   position: relative;
-  left: 375px;
+  left: 315px;
   bottom: 210px;
+}
+
+#t-screenshot {
+  height: 100%;
+  position: relative;
+  bottom: 210px;
+  left: 325px;
 }
 
 .m-content, .t-content {
   position: relative;
   top: 250px;
-  right: 100px;
+  right: 70px;
 }
 
 #shrink-me {
@@ -173,8 +188,14 @@ h1.header {
     background-color: $gray;
   }
 
+  #bottom {
+    margin: 0 auto;
+    width: 60%;
+  }
+
   i {
     color: $green;
+    margin-right: 7px;
   }
 }
 
