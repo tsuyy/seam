@@ -47,8 +47,9 @@ html {
   a.ui.item {
     color: $font-color;
     line-height: 7px;
+    height: 40px;
   }
-  
+
   a.ui.item:hover {
     color: $blue!important;
     background-color: $gray;
