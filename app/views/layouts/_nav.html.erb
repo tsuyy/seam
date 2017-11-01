@@ -15,7 +15,11 @@
       About
     <% end %>
     <div class="item">
-      <button class="ui button" id="cta-btn">Sign In</button>
+      <%= link_to('http://app.seam.fun/signup', target: :_blank) do %>
+        <button class="ui button" id="cta-btn">
+          Sign In
+        </button>
+      <% end %>
     </div>
   </div>
   <div class='right menu' id='mobile-only'>

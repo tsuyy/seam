@@ -11,9 +11,11 @@
             editing, messaging and task management, under a single roof.
           </p>
           <div class="ui center aligned container" id='signup'>
-            <button class="ui button" id="cta-btn">
-              Create Free Account
-            </button><br>
+            <%= link_to('http://app.seam.fun/signup', target: :_blank) do %>
+              <button class="ui button" id="cta-btn">
+                Create Free Account
+              </button><br>
+            <% end %>
           </div>
           <%= image_tag('dashboard.png', class: 'ui center aligned image')%>
         </div>
@@ -38,9 +40,11 @@
           Search for tasks, files, all the way to messages.<br>
           We're your one stop to find everything you need.
         </p>
-        <button class="ui button" id="cta-btn">
-          Create Free Account
-        </button>
+        <%= link_to('http://app.seam.fun/signup', target: :_blank) do %>
+          <button class="ui button" id="cta-btn">
+            Create Free Account
+          </button>
+        <% end %>
       </div>
     </div>
   </div>
@@ -60,9 +64,11 @@
         making project discussions and business<br>
         decisions that much more seamless.
       </p>
-      <button class="ui button" id="cta-btn">
-        Create Free Account
-      </button>
+      <%= link_to('http://app.seam.fun/signup', target: :_blank) do %>
+        <button class="ui button" id="cta-btn">
+          Create Free Account
+        </button>
+      <% end %>
     </div>
     <%= image_tag('messenger.png', class:'ui massive image', id: 'm-screenshot') %>
   </section>
@@ -83,9 +89,11 @@
           Conveniently create, access and share files.<br>
           Working together has never been easier.
         </p>
-        <button class="ui button" id="cta-btn">
-          Create Free Account
-        </button>
+        <%= link_to('http://app.seam.fun/signup', target: :_blank) do %>
+          <button class="ui button" id="cta-btn">
+            Create Free Account
+          </button>
+        <% end %>
       </div>
     </div>
   </div>
@@ -106,9 +114,11 @@
         members individually. It's time to kiss<br>
         goodbye to guessing who's doing what.
       </p>
-      <button class="ui button" id="cta-btn">
-        Create Free Account
-      </button>
+      <%= link_to('http://app.seam.fun/signup', target: :_blank) do %>
+        <button class="ui button" id="cta-btn">
+          Create Free Account
+        </button>
+      <% end %>
     </div>
     <%= image_tag('to-do.png', class:'ui massive image', id: 't-screenshot') %>
   </section>
