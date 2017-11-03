@@ -209,6 +209,52 @@ h1.header {
 }
 
 #p-2 {
+  background-color: white;
+  box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.15);
+  margin: 50px 0 80px 0;
+  padding: 0px 0 50px 0;
+
+  .grid {
+    position: relative;
+  }
+
+  h2 {
+    font-family: $header-font;
+    padding: 50px 0 25px 0;
+  }
+
+  span {
+    display: inline-block;
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.5;
+    top: 15px;
+    position: relative;
+  }
+
+  .tiny {
+    padding: 10px;
+    width: 70px;
+  }
+
+  .list {
+    text-align: left;
+    font-size: 17px;
+    left: 58%;
+    position: relative;
+  }
+
+  i {
+    color: $green;
+    margin-right: 7px;
+  }
+
+  #end {
+    text-align: end;
+  }
+}
+
+#p-3 {
   margin: 0 0 5% 0;
 
   h1 {
