@@ -212,15 +212,14 @@ h1.header {
   background-color: white;
   box-shadow: 0 2px 25px 0 rgba(0, 0, 0, 0.15);
   margin: 50px 0 80px 0;
-  padding: 0px 0 50px 0;
+  padding: 0px 0 70px 0;
 
   .grid {
     position: relative;
   }
 
-  h2 {
-    font-family: $header-font;
-    padding: 50px 0 25px 0;
+  h1 {
+    padding: 50px 0 35px 0;
   }
 
   span {
@@ -228,29 +227,37 @@ h1.header {
     text-align: left;
     font-size: 17px;
     line-height: 1.5;
-    top: 15px;
-    position: relative;
+  }
+
+  .content {
+    margin: 10px 0 0 0;
   }
 
   .tiny {
-    padding: 10px;
+    padding: 9px;
     width: 70px;
+    height: 70px;
+    margin: 0 5px 0 0;
   }
 
   .list {
     text-align: left;
     font-size: 17px;
-    left: 58%;
-    position: relative;
+    margin: 0 auto;
+    width: 290px;
   }
 
   i {
     color: $green;
-    margin-right: 7px;
+    margin: 0 7px 0 88px;
   }
 
-  #end {
-    text-align: end;
+  #align-me {
+    text-align: center;
+  }
+
+  .divider {
+    font-size: 22px;
   }
 }
 
